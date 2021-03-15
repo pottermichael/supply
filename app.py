@@ -4,7 +4,7 @@ from flask_migrate import Migrate
 import os
 
 #https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/
-
+#did it work
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:pgsuper007@localhost:5432/cars_api"
