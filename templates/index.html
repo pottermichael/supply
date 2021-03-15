@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block content %}
+{{ super() }}
+<h1></h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header bg-success">
+        +4 Million SF Completed
+        </div>
+        <img src="https://tourchicago.s3.us-east-2.amazonaws.com/grandAVE.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chicago</h5>
+          <p class="card-text">Having developed over +4 million SF of Class +A office space, Riverside has built 50% of all CBD new supply since 2014.</p>
+          <a href="#" class="btn btn-primary">View Data</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header bg-warning">
+        Pre-development Since April 2019
+        </div>
+        <img src="static/images/denver_skyline.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Denver</h5>
+          <p class="card-text">National growth market with a lifestyle-city attracting technology workers. Potential to set the standard for Class +A quality in the market.</p>
+          <a href="#" class="btn btn-primary">View Data</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+        Active Tracking
+        </div>
+        <img src="static/images/charlotte_skyline.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Charlotte</h5>
+          <p class="card-text">A "big" small city, Charlotte is experiencing exceptional growth, investing wisely in infrastructure and financial service tenancy</p>
+          <a href="#" class="btn btn-primary">View Data</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+        Active Tracking
+        </div>
+        <img src="static/images/nashville_skyline.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nashville</h5>
+          <p class="card-text">Music city is one of the fastest growing MSAs for millennial population growth with a variety extabilised Fortune 1000 companies and an emerging tech presence.</p>
+          <a href="{{ url_for('map') }}" class="btn btn-primary">View Data</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
