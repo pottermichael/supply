@@ -1,1 +1,1 @@
-web: gunicorn script:cars
+web: gunicorn cars:app
