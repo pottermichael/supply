@@ -4,7 +4,7 @@ from flask_migrate import Migrate
 import os
 
 #https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/
-#did it work
+
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:pgsuper007@localhost:5432/cars_api"
@@ -15,6 +15,15 @@ migrate = Migrate(app, db)
 @app.route('/base', methods=["GET"])
 def base():
     return render_template("base.html")
+
+@app.route('/denver', methods=["GET"])
+def denver():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "nashville_bldg_footprints.geojson")
+    data = json.load(open(json_url))
+    print(type(data))
+    print(data)
+    return render_template("denver.html",data=data)
 
 @app.route('/', methods=["GET"])
 @app.route('/index', methods=["GET"])
