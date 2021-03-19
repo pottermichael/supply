@@ -35,10 +35,21 @@
       'source': 'maine',
       'layout': {},
       'paint': {
-        'fill-color': '#088',
+        'fill-color': [
+          'match',
+          [
+            'get', 'status'
+          ],
+          'complete',
+          '#FF0000',
+          'construction',
+          '#00ff00',
+          /*other*/
+          '#FFFF00'
+        ],
         'fill-opacity': 0.6
-      }
-    });
+    }
+  });
 
     // When a click event occurs on a feature in the places layer, open a popup at the
     // location of the feature, with description HTML from its properties.
@@ -116,7 +127,7 @@
                 '</tr>'+
                 '</tbody>'+
               '</table>'+
-          '<a href=' + website + 'target="_blank" class="btn btn-primary">View Website</a>'+
+          '<a href'+'=' + website + 'class="btn btn-primary">View Website</a>'+
         '</div>'+
       '</div>'
       )
