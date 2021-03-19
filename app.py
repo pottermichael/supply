@@ -19,7 +19,7 @@ def base():
 @app.route('/denver', methods=["GET"])
 def denver():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "nashville_bldg_footprints.geojson")
+    json_url = os.path.join(SITE_ROOT, "static/data", "denver_clear.geojson")
     data = json.load(open(json_url))
     print(type(data))
     print(data)
