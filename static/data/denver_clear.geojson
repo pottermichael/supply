@@ -1,19 +1,423 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "name": "Dairy Block", "status": "complete", "address": "1800 Wazee", "owner_deevloper": "McWhinney", "site_rsf": 0, "site_cost": 35000000, "program": "172-room Hotel; 260k RSF Office", "office_prelease": 1.0, "cost": 275000000, "begin": 2014, "end": 2016, "geometry": [ [ -104.997455, 39.753094 ], [ -104.99643, 39.753886 ], [ -104.995732, 39.753357 ], [ -104.996751, 39.752542 ], [ -104.997455, 39.753094 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Dairy+Block.jpg", "website": "https://dairyblock.com/", "suffix": "Dairy+Block.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.997455, 39.753094 ], [ -104.99643, 39.753886 ], [ -104.995732, 39.753357 ], [ -104.996751, 39.752542 ], [ -104.997455, 39.753094 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "The Quincy", "status": "complete", "address": "1776 Curtis", "owner_deevloper": "Shea Properties", "site_rsf": 36469, "site_cost": 18000000, "program": "364 Resi Units", "office_prelease": 0.0, "cost": 150000000, "begin": 2014, "end": 2016, "geometry": [ [ -104.993138, 39.748332 ], [ -104.992851, 39.748101 ], [ -104.992088, 39.748669 ], [ -104.99239, 39.748905 ], [ -104.993138, 39.748332 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Quincy.jpg", "website": "https://www.sheaapartments.com/apartments/the-quincy/", "suffix": "Quincy.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.993138, 39.748332 ], [ -104.992851, 39.748101 ], [ -104.992088, 39.748669 ], [ -104.99239, 39.748905 ], [ -104.993138, 39.748332 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "Prism", "status": "complete", "address": "999 17th", "owner_deevloper": "Shea Properties", "site_rsf": 12563, "site_cost": 0, "program": "90,000 RSF Office", "office_prelease": 0.5, "cost": 50000000, "begin": 2017, "end": 2019, "geometry": [ [ -104.993391, 39.748135 ], [ -104.993095, 39.747906 ], [ -104.992864, 39.748081 ], [ -104.993164, 39.748309 ], [ -104.993391, 39.748135 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Prism.jpg", "website": "https://sheaproperties.com/office/detail/23/prism", "suffix": "Prism.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.993391, 39.748135 ], [ -104.993095, 39.747906 ], [ -104.992864, 39.748081 ], [ -104.993164, 39.748309 ], [ -104.993391, 39.748135 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "Buell Media Center", "status": "complete", "address": "2101 Arapahoe", "owner_deevloper": "Rocky Mountain Public Media", "site_rsf": 35000, "site_cost": 0, "program": "63,000 RSF Office", "office_prelease": 1.0, "cost": 25000000, "begin": 2018, "end": 2020, "geometry": [ [ -104.989956, 39.752934 ], [ -104.989647, 39.752702 ], [ -104.988914, 39.753266 ], [ -104.989227, 39.753509 ], [ -104.989956, 39.752934 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Buell+Media+Center.jpg", "website": "https://www.rmpbs.org/buellpublicmediacenter/", "suffix": "Buell+Media+Center.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.989956, 39.752934 ], [ -104.989647, 39.752702 ], [ -104.988914, 39.753266 ], [ -104.989227, 39.753509 ], [ -104.989956, 39.752934 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "McGregor Square", "status": "construction", "address": "1901 Wazee", "owner_deevloper": "Monfort Companies", "site_rsf": 129952, "site_cost": 0, "program": "176-room Hotel; 103 Residential Units; 200k RSF Office ", "office_prelease": 0.6, "cost": 325000000, "begin": 2018, "end": 2021, "geometry": [ [ -104.997057, 39.75464 ], [ -104.996412, 39.75416 ], [ -104.996077, 39.754423 ], [ -104.996122, 39.754458 ], [ -104.995463, 39.754977 ], [ -104.995715, 39.754959 ], [ -104.995725, 39.755049 ], [ -104.995639, 39.755118 ], [ -104.996115, 39.755494 ], [ -104.996781, 39.75498 ], [ -104.996653, 39.754868 ], [ -104.997085, 39.7548 ], [ -104.996978, 39.754712 ], [ -104.997057, 39.75464 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/McGregor+Square.jpg", "website": "https://mcgregorsquare.com/", "suffix": "McGregor+Square.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.997057, 39.75464 ], [ -104.996412, 39.75416 ], [ -104.996077, 39.754423 ], [ -104.996122, 39.754458 ], [ -104.995463, 39.754977 ], [ -104.995715, 39.754959 ], [ -104.995725, 39.755049 ], [ -104.995639, 39.755118 ], [ -104.996115, 39.755494 ], [ -104.996781, 39.75498 ], [ -104.996653, 39.754868 ], [ -104.997085, 39.7548 ], [ -104.996978, 39.754712 ], [ -104.997057, 39.75464 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "Market Station", "status": "construction", "address": "1445 16th", "owner_deevloper": "Continuum", "site_rsf": 83959, "site_cost": 0, "program": "225 Residentual Units; 95k RSF Office", "office_prelease": 1.0, "cost": 125000000, "begin": 2018, "end": 2021, "geometry": [ [ -104.999015, 39.750537 ], [ -104.998687, 39.750798 ], [ -104.998355, 39.750549 ], [ -104.998255, 39.750506 ], [ -104.997766, 39.750913 ], [ -104.998128, 39.751182 ], [ -104.997968, 39.751314 ], [ -104.997297, 39.750801 ], [ -104.99833, 39.750013 ], [ -104.999015, 39.750537 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Market+Station.jpg", "website": "https://marketstationdenver.com/", "suffix": "Market+Station.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.999015, 39.750537 ], [ -104.998687, 39.750798 ], [ -104.998355, 39.750549 ], [ -104.998255, 39.750506 ], [ -104.997766, 39.750913 ], [ -104.998128, 39.751182 ], [ -104.997968, 39.751314 ], [ -104.997297, 39.750801 ], [ -104.99833, 39.750013 ], [ -104.999015, 39.750537 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "The Fitzgerald", "status": "construction", "address": "1800 Market", "owner_deevloper": "Greystar", "site_rsf": 50179, "site_cost": 20750000, "program": "324 Residential Units", "office_prelease": 0.0, "cost": 100000000, "begin": 2019, "end": 2021, "geometry": [ [ -104.995673, 39.751745 ], [ -104.995366, 39.751511 ], [ -104.99437, 39.752289 ], [ -104.994682, 39.752521 ], [ -104.995673, 39.751745 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Fitzgerald.jpg", "website": "https://livethefitzgerald.com/", "suffix": "Fitzgerald.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.995673, 39.751745 ], [ -104.995366, 39.751511 ], [ -104.99437, 39.752289 ], [ -104.994682, 39.752521 ], [ -104.995673, 39.751745 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "X Denver 2", "status": "construction", "address": "2130 Arapahoe", "owner_deevloper": "Property Markets Group", "site_rsf": 24663, "site_cost": 8000000, "program": "410 Residential Units", "office_prelease": 0.0, "cost": 150000000, "begin": 2020, "end": 2022, "geometry": [ [ -104.989401, 39.752549 ], [ -104.988953, 39.752893 ], [ -104.988668, 39.752672 ], [ -104.989119, 39.752325 ], [ -104.989401, 39.752549 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/X+Denver+2.jpg", "website": "https://katerra.com/projects/x-denver-2/", "suffix": "X+Denver+2.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.989401, 39.752549 ], [ -104.988953, 39.752893 ], [ -104.988668, 39.752672 ], [ -104.989119, 39.752325 ], [ -104.989401, 39.752549 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "1900 Lawrence", "status": "predevelopment", "address": "1900 Lawrence", "owner_deevloper": "Riverside", "site_rsf": 55000, "site_cost": 27500000, "program": "180-room Hotel; 600k RSF Office", "office_prelease": 0.0, "cost": 400000000, "begin": 2021, "end": 2024, "geometry": [ [ -104.992891, 39.751331 ], [ -104.992306, 39.751783 ], [ -104.991907, 39.751486 ], [ -104.992006, 39.751405 ], [ -104.991545, 39.75107 ], [ -104.992041, 39.750673 ], [ -104.992891, 39.751331 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/1900+Lawrence.jpg", "website": "https://www.1900lawrence.com/", "suffix": "1900+Lawrence.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.992891, 39.751331 ], [ -104.992306, 39.751783 ], [ -104.991907, 39.751486 ], [ -104.992006, 39.751405 ], [ -104.991545, 39.75107 ], [ -104.992041, 39.750673 ], [ -104.992891, 39.751331 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "Kenect Denver", "status": "predevelopment", "address": "2136 Lawrence", "owner_deevloper": "Akara", "site_rsf": 25000, "site_cost": 8000000, "program": "431 Residential Units", "office_prelease": 0.0, "cost": 150000000, "begin": 2021, "end": 2023, "geometry": [ [ -104.990109, 39.753375 ], [ -104.989792, 39.753132 ], [ -104.989242, 39.753546 ], [ -104.989581, 39.75379 ], [ -104.990109, 39.753375 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Kenect+Denver.jpg", "website": "http://akara.colorjarprojects.com/project/kenect-denver/", "suffix": "Kenect+Denver.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.990109, 39.753375 ], [ -104.989792, 39.753132 ], [ -104.989242, 39.753546 ], [ -104.989581, 39.75379 ], [ -104.990109, 39.753375 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "Greyhound", "status": "predevelopment", "address": "1055 19th", "owner_deevloper": "Golub / Rockefeller", "site_rsf": 106685, "site_cost": 38000000, "program": "450 Residential Units; 600k RSF Office", "office_prelease": 0.0, "cost": 500000000, "begin": 2022, "end": 2025, "geometry": [ [ -104.992017, 39.750659 ], [ -104.990841, 39.751584 ], [ -104.99, 39.750935 ], [ -104.991188, 39.750019 ], [ -104.992017, 39.750659 ] ], "image": "https://1900lawerence.s3.us-east-2.amazonaws.com/denver_greyhound.jpg", "website": "https://www.bizjournals.com/denver/news/2020/12/28/greyhound-station-denver-sold.html#:~:text=The%20Greyhound%20Station%20parcel%20%E2%80%94%20a,companies%20told%20Denver%20Business%20Journal.", "suffix": "denver_greyhound.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.992017, 39.750659 ], [ -104.990841, 39.751584 ], [ -104.99, 39.750935 ], [ -104.991188, 39.750019 ], [ -104.992017, 39.750659 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "18th and Market", "status": "predevelopment", "address": "1801 Market", "owner_deevloper": "Elevation", "site_rsf": 50000, "site_cost": 22000000, "program": "150 Residential Units; 200k RSF Office", "office_prelease": 0.0, "cost": 175000000, "begin": 2023, "end": 2025, "geometry": [ [ -104.994807, 39.752606 ], [ -104.995204, 39.752909 ], [ -104.996198, 39.752137 ], [ -104.995806, 39.751837 ], [ -104.994807, 39.752606 ] ], "image": "No Image", "website": "https://www.bizjournals.com/denver/news/2017/10/03/denver-developer-buys-half-block-site-in-lodo.html", "suffix": "No Image" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.994807, 39.752606 ], [ -104.995204, 39.752909 ], [ -104.996198, 39.752137 ], [ -104.995806, 39.751837 ], [ -104.994807, 39.752606 ] ] ] } },
-{ "type": "Feature", "properties": { "name": "Sakura Square", "status": "planning", "address": "1255 19th", "owner_deevloper": "TBD", "site_rsf": 100000, "site_cost": 40000000, "program": "175-room Hotel; 250 Residential Units; 600k RSF Office", "office_prelease": 0.0, "cost": 600000000, "begin": 2024, "end": 2028, "geometry": [ [ -104.993775, 39.752011 ], [ -104.99259, 39.752913 ], [ -104.991733, 39.752266 ], [ -104.992918, 39.751354 ], [ -104.993775, 39.752011 ] ], "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/1900+Sakura+1.png", "website": "http://sakurasquare.com/rfq/", "suffix": "1900+Sakura+1.png" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.993775, 39.752011 ], [ -104.99259, 39.752913 ], [ -104.991733, 39.752266 ], [ -104.992918, 39.751354 ], [ -104.993775, 39.752011 ] ] ] } }
-]
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "name": "Dairy Block",
+        "status": "complete",
+        "address": "1800 Wazee",
+        "owner_deevloper": "McWhinney",
+        "site_rsf": 0,
+        "site_cost": 35000000,
+        "program": "172-room Hotel; 260k RSF Office",
+        "office_prelease": 1.0,
+        "cost": 275000000,
+        "begin": 2014,
+        "end": 2016,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Dairy+Block.jpg",
+        "website": "https://dairyblock.com/",
+        "suffix": "Dairy+Block.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.997455, 39.753094],
+            [-104.99643, 39.753886],
+            [-104.995732, 39.753357],
+            [-104.996751, 39.752542],
+            [-104.997455, 39.753094]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Quincy",
+        "status": "complete",
+        "address": "1776 Curtis",
+        "owner_deevloper": "Shea Properties",
+        "site_rsf": 36469,
+        "site_cost": 18000000,
+        "program": "364 Resi Units",
+        "office_prelease": 0.0,
+        "cost": 150000000,
+        "begin": 2014,
+        "end": 2016,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Quincy.jpg",
+        "website": "https://www.sheaapartments.com/apartments/the-quincy/",
+        "suffix": "Quincy.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.993138, 39.748332],
+            [-104.992851, 39.748101],
+            [-104.992088, 39.748669],
+            [-104.99239, 39.748905],
+            [-104.993138, 39.748332]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prism",
+        "status": "complete",
+        "address": "999 17th",
+        "owner_deevloper": "Shea Properties",
+        "site_rsf": 12563,
+        "site_cost": 0,
+        "program": "90,000 RSF Office",
+        "office_prelease": 0.5,
+        "cost": 50000000,
+        "begin": 2017,
+        "end": 2019,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Prism.jpg",
+        "website": "https://sheaproperties.com/office/detail/23/prism",
+        "suffix": "Prism.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.993391, 39.748135],
+            [-104.993095, 39.747906],
+            [-104.992864, 39.748081],
+            [-104.993164, 39.748309],
+            [-104.993391, 39.748135]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buell Media Center",
+        "status": "complete",
+        "address": "2101 Arapahoe",
+        "owner_deevloper": "Rocky Mountain Public Media",
+        "site_rsf": 35000,
+        "site_cost": 0,
+        "program": "63,000 RSF Office",
+        "office_prelease": 1.0,
+        "cost": 25000000,
+        "begin": 2018,
+        "end": 2020,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Buell+Media+Center.jpg",
+        "website": "https://www.rmpbs.org/buellpublicmediacenter/",
+        "suffix": "Buell+Media+Center.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.989956, 39.752934],
+            [-104.989647, 39.752702],
+            [-104.988914, 39.753266],
+            [-104.989227, 39.753509],
+            [-104.989956, 39.752934]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "McGregor Square",
+        "status": "construction",
+        "address": "1901 Wazee",
+        "owner_deevloper": "Monfort Companies",
+        "site_rsf": 129952,
+        "site_cost": 0,
+        "program": "176-room Hotel; 103 Residential Units; 200k RSF Office ",
+        "office_prelease": 0.6,
+        "cost": 325000000,
+        "begin": 2018,
+        "end": 2021,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/McGregor+Square.jpg",
+        "website": "https://mcgregorsquare.com/",
+        "suffix": "McGregor+Square.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.997057, 39.75464],
+            [-104.996412, 39.75416],
+            [-104.996077, 39.754423],
+            [-104.996122, 39.754458],
+            [-104.995463, 39.754977],
+            [-104.995715, 39.754959],
+            [-104.995725, 39.755049],
+            [-104.995639, 39.755118],
+            [-104.996115, 39.755494],
+            [-104.996781, 39.75498],
+            [-104.996653, 39.754868],
+            [-104.997085, 39.7548],
+            [-104.996978, 39.754712],
+            [-104.997057, 39.75464]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Market Station",
+        "status": "construction",
+        "address": "1445 16th",
+        "owner_deevloper": "Continuum",
+        "site_rsf": 83959,
+        "site_cost": 0,
+        "program": "225 Residentual Units; 95k RSF Office",
+        "office_prelease": 1.0,
+        "cost": 125000000,
+        "begin": 2018,
+        "end": 2021,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Market+Station.jpg",
+        "website": "https://marketstationdenver.com/",
+        "suffix": "Market+Station.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.999015, 39.750537],
+            [-104.998687, 39.750798],
+            [-104.998355, 39.750549],
+            [-104.998255, 39.750506],
+            [-104.997766, 39.750913],
+            [-104.998128, 39.751182],
+            [-104.997968, 39.751314],
+            [-104.997297, 39.750801],
+            [-104.99833, 39.750013],
+            [-104.999015, 39.750537]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Fitzgerald",
+        "status": "construction",
+        "address": "1800 Market",
+        "owner_deevloper": "Greystar",
+        "site_rsf": 50179,
+        "site_cost": 20750000,
+        "program": "324 Residential Units",
+        "office_prelease": 0.0,
+        "cost": 100000000,
+        "begin": 2019,
+        "end": 2021,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Fitzgerald.jpg",
+        "website": "https://livethefitzgerald.com/",
+        "suffix": "Fitzgerald.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.995673, 39.751745],
+            [-104.995366, 39.751511],
+            [-104.99437, 39.752289],
+            [-104.994682, 39.752521],
+            [-104.995673, 39.751745]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "X Denver 2",
+        "status": "construction",
+        "address": "2130 Arapahoe",
+        "owner_deevloper": "Property Markets Group",
+        "site_rsf": 24663,
+        "site_cost": 8000000,
+        "program": "410 Residential Units",
+        "office_prelease": 0.0,
+        "cost": 150000000,
+        "begin": 2020,
+        "end": 2022,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/X+Denver+2.jpg",
+        "website": "https://katerra.com/projects/x-denver-2/",
+        "suffix": "X+Denver+2.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.989401, 39.752549],
+            [-104.988953, 39.752893],
+            [-104.988668, 39.752672],
+            [-104.989119, 39.752325],
+            [-104.989401, 39.752549]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "1900 Lawrence",
+        "status": "predevelopment",
+        "address": "1900 Lawrence",
+        "owner_deevloper": "Riverside",
+        "site_rsf": 55000,
+        "site_cost": 27500000,
+        "program": "180-room Hotel; 600k RSF Office",
+        "office_prelease": 0.0,
+        "cost": 400000000,
+        "begin": 2021,
+        "end": 2024,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/1900+Lawrence.jpg",
+        "website": "https://www.1900lawrence.com/",
+        "suffix": "1900+Lawrence.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.992891, 39.751331],
+            [-104.992306, 39.751783],
+            [-104.991907, 39.751486],
+            [-104.992006, 39.751405],
+            [-104.991545, 39.75107],
+            [-104.992041, 39.750673],
+            [-104.992891, 39.751331]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kenect Denver",
+        "status": "predevelopment",
+        "address": "2136 Lawrence",
+        "owner_deevloper": "Akara",
+        "site_rsf": 25000,
+        "site_cost": 8000000,
+        "program": "431 Residential Units",
+        "office_prelease": 0.0,
+        "cost": 150000000,
+        "begin": 2021,
+        "end": 2023,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/Kenect+Denver.jpg",
+        "website": "http://akara.colorjarprojects.com/project/kenect-denver/",
+        "suffix": "Kenect+Denver.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.990109, 39.753375],
+            [-104.989792, 39.753132],
+            [-104.989242, 39.753546],
+            [-104.989581, 39.75379],
+            [-104.990109, 39.753375]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greyhound",
+        "status": "predevelopment",
+        "address": "1055 19th",
+        "owner_deevloper": "Golub / Rockefeller",
+        "site_rsf": 106685,
+        "site_cost": 38000000,
+        "program": "450 Residential Units; 600k RSF Office",
+        "office_prelease": 0.0,
+        "cost": 500000000,
+        "begin": 2022,
+        "end": 2025,
+        "image": "https://1900lawerence.s3.us-east-2.amazonaws.com/denver_greyhound.jpg",
+        "website": "https://www.bizjournals.com/denver/news/2020/12/28/greyhound-station-denver-sold.html#:~:text=The%20Greyhound%20Station%20parcel%20%E2%80%94%20a,companies%20told%20Denver%20Business%20Journal.",
+        "suffix": "denver_greyhound.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.992017, 39.750659],
+            [-104.990841, 39.751584],
+            [-104.99, 39.750935],
+            [-104.991188, 39.750019],
+            [-104.992017, 39.750659]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "18th and Market",
+        "status": "predevelopment",
+        "address": "1801 Market",
+        "owner_deevloper": "Elevation",
+        "site_rsf": 50000,
+        "site_cost": 22000000,
+        "program": "150 Residential Units; 200k RSF Office",
+        "office_prelease": 0.0,
+        "cost": 175000000,
+        "begin": 2023,
+        "end": 2025,
+        "image": "No Image",
+        "website": "https://www.bizjournals.com/denver/news/2017/10/03/denver-developer-buys-half-block-site-in-lodo.html",
+        "suffix": "No Image"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.994807, 39.752606],
+            [-104.995204, 39.752909],
+            [-104.996198, 39.752137],
+            [-104.995806, 39.751837],
+            [-104.994807, 39.752606]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sakura Square",
+        "status": "planning",
+        "address": "1255 19th",
+        "owner_deevloper": "TBD",
+        "site_rsf": 100000,
+        "site_cost": 40000000,
+        "program": "175-room Hotel; 250 Residential Units; 600k RSF Office",
+        "office_prelease": 0.0,
+        "cost": 600000000,
+        "begin": 2024,
+        "end": 2028,
+        "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/1900+Sakura+1.png",
+        "website": "http://sakurasquare.com/rfq/",
+        "suffix": "1900+Sakura+1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-104.993775, 39.752011],
+            [-104.99259, 39.752913],
+            [-104.991733, 39.752266],
+            [-104.992918, 39.751354],
+            [-104.993775, 39.752011]
+          ]
+        ]
+      }
+    }
+  ]
 }
