@@ -44,8 +44,10 @@
           '#FF0000',
           'construction',
           '#00ff00',
+          'subject-site',
+          '#FFFF00',
           /*other*/
-          '#FFFF00'
+          '#7AD7F0'
         ],
         'fill-opacity': 0.6
     }
@@ -63,6 +65,7 @@
     var status = e.features[0].properties.status;
     var area = e.features[0].properties.site_rsf.toLocaleString();
     var site_cost = e.features[0].properties.site_cost.toLocaleString();
+    var proj_cost = e.features[0].properties.cost.toLocaleString();
     var lease = e.features[0].properties.office_prelease.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:1});
     var image = e.features[0].properties.image;
     var website = e.features[0].properties.website;
@@ -120,6 +123,10 @@
                 '<tr>'+
                   '<th scope="row">Site Cost</th>'+
                   '<td colspan="2">'+ site_cost +'</td>'+
+                '</tr>'+
+                '<tr>'+
+                  '<th scope="row">Budget</th>'+
+                  '<td colspan="2">'+ proj_cost +'</td>'+
                 '</tr>'+
                 '<tr>'+
                   '<th scope="row">Leasing</th>'+

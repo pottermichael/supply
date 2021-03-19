@@ -266,7 +266,7 @@
       "type": "Feature",
       "properties": {
         "name": "1900 Lawrence",
-        "status": "predevelopment",
+        "status": "subject-site",
         "address": "1900 Lawrence",
         "owner_deevloper": "Riverside",
         "site_rsf": 55000,
@@ -371,9 +371,9 @@
         "cost": 175000000,
         "begin": 2023,
         "end": 2025,
-        "image": "No Image",
+        "image": "https://1900lawerence.s3.us-east-2.amazonaws.com/18th+and+Market.jpg",
         "website": "https://www.bizjournals.com/denver/news/2017/10/03/denver-developer-buys-half-block-site-in-lodo.html",
-        "suffix": "No Image"
+        "suffix": "18th+and+Market.jpg"
       },
       "geometry": {
         "type": "Polygon",
@@ -400,8 +400,8 @@
         "program": "175-room Hotel; 250 Resi Units; 600k RSF Office",
         "office_prelease": 0.0,
         "cost": 600000000,
-        "begin": 2024,
-        "end": 2028,
+        "begin": 2023,
+        "end": 2026,
         "image": "https://ridcarapahoe.s3.us-east-2.amazonaws.com/1900+Sakura+1.png",
         "website": "http://sakurasquare.com/rfq/",
         "suffix": "1900+Sakura+1.png"
