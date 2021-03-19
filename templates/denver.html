@@ -19,7 +19,7 @@
   var map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/mpotter/ck71zeu3w0vki1isbsftv7vhc', // style URL
-    center: [-104.992166, 39.751176], // starting position [lng, lat]
+    center: [-104.994762, 39.749937], // starting position [lng, lat]
     zoom: 13.5, // starting zoom
     bearing: 315
   });
@@ -44,9 +44,9 @@
     // location of the feature, with description HTML from its properties.
   map.on('click', 'maine', function (e) {
     var coordinates = e.features[0].geometry.coordinates[0][0]; // get just the first set of coordinates. Prob better to figure out centerpoint in future
-    var description = e.features[0].properties.name;
+    var name = e.features[0].properties.name;
     var image = e.features[0].properties.img;
-    console.log(description);
+    console.log(name);
     console.log(coordinates);
     console.log("image links?");
     console.log(image);
@@ -64,7 +64,7 @@
       '<div class="card" style="width: 18rem;">'+
         '<img class="card-img-top" alt="Card image cap"' + 'src=' + image + '>'+
         '<div class="card-body">'+
-          '<h5 class="card-title">'+ description + '</h5>'+
+          '<h5 class="card-title">'+ name + '</h5>'+
           '<table class="table table-sm table-striped">'+
               '<thead>'+
                 '<tr>'+
@@ -74,31 +74,39 @@
               '</thead>'+
               '<tbody>'+
                 '<tr>'+
-                  '<th scope="row">Sponsor</th>'+
+                  '<th scope="row">Name</th>'+
                   '<td>sponsorValue</td>'+
                 '</tr>'+
                 '<tr>'+
-                  '<th scope="row">Year</th>'+
+                  '<th scope="row">Address</th>'+
                   '<td>yearValue</td>'+
                 '</tr>'+
                 '<tr>'+
-                  '<th scope="row">Total RSF</th>'+
+                  '<th scope="row">Status</th>'+
                   '<td>rsfValue</td>'+
                 '</tr>'+
                 '<tr>'+
-                  '<th scope="row">Anchor(s)</th>'+
+                  '<th scope="row">Sponsor</th>'+
                   '<td colspan="2">anchorValue</td>'+
                 '</tr>'+
                 '<tr>'+
-                  '<th scope="row">% Leased</th>'+
+                  '<th scope="row">Site Area</th>'+
                   '<td colspan="2">leasedValue</td>'+
                 '</tr>'+
                 '<tr>'+
-                  '<th scope="row">Debt</th>'+
+                  '<th scope="row">Site Cost</th>'+
                   '<td colspan="2">debtLender</td>'+
                 '</tr>'+
                 '<tr>'+
-                  '<th scope="row">Equity</th>'+
+                  '<th scope="row">Program</th>'+
+                  '<td colspan="2">equityPartners</td>'+
+                '</tr>'+
+                '<tr>'+
+                  '<th scope="row">Office Leasing</th>'+
+                  '<td colspan="2">equityPartners</td>'+
+                '</tr>'+
+                '<tr>'+
+                  '<th scope="row">Year</th>'+
                   '<td colspan="2">equityPartners</td>'+
                 '</tr>'+
                 '</tbody>'+
