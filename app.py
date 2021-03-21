@@ -1,6 +1,8 @@
 from flask import Flask, request, json, jsonify, render_template, make_response
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+import pandas as pd
+import geopandas as gpd
 import os
 
 #https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/
@@ -16,6 +18,10 @@ migrate = Migrate(app, db)
 def base():
     return render_template("base.html")
 
+@app.route('/login', methods=["GET"])
+def login():
+    return render_template("login.html")
+
 @app.route('/denver', methods=["GET"])
 def denver():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -24,6 +30,15 @@ def denver():
     print(type(data))
     print(data)
     return render_template("denver.html",data=data)
+
+@app.route('/geo', methods=["GET"])
+def geojson_to_gpd():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "denver_clear.geojson")
+    gdf = gpd.read_file(json_url,geometry="geometry",crs="EPSG:4326")
+    gdf['center'] = gdf['geometry'].centroid
+    print(gdf.columns)
+    return render_template("geo.html",data=gdf)
 
 @app.route('/', methods=["GET"])
 @app.route('/index', methods=["GET"])

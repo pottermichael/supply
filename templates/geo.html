@@ -1,0 +1,18 @@
+<head></head>
+<body>
+    <h1>Interest Rate:</h1>
+    <table>
+        <tr>
+            {% for column in data.columns %}
+            <th>{{ column }}</th>
+            {% endfor %}
+        </tr>
+        {% for idx, row in data.iterrows() %}
+        <tr>
+            {% for colname in data.columns %}
+            <td>{{ row[colname] }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
