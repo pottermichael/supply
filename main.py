@@ -48,10 +48,10 @@ def denver_cbd():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "denver_fixed_supply.geojson")
     data = json.load(open(json_url))
-    gdf = gpd.GeoDataFrame(data,geometry='geometry')
-    filter = gdf[gdf['use']=="office"]
+    #gdf = gpd.GeoDataFrame(open(json_url),geometry='geometry')
+    #filter = gdf[gdf['use']=="office"]
     print("filter results")
-    print(filter)
+    #print(gdf)
     print(type(data))
     print(data)
     return render_template("denver_cbd.html",data=data)
