@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+{% include 'nav.html' %}
+<style>
+  .mapboxgl-popup {
+      max-width: 400px;
+      font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+</style>
+
+{% block content%}
+<div id='map'></div>
+<script src="/static/blipper.js" charset="utf-8"></script>
+<script>
+  var item;
+  item = {{ data | safe }};
+  console.log(typeof(item));
+  console.log(item);
+  mapboxgl.accessToken = 'pk.eyJ1IjoibXBvdHRlciIsImEiOiJjajAxZGltM3UwNjF2MzJsczVnN3R2eTNnIn0._Sj0HRLt8VTQGTojMWYFfQ';
+  var map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mpotter/ck71zeu3w0vki1isbsftv7vhc', // style URL
+    center: [-104.994762, 39.749937], // starting position [lng, lat]
+    zoom: 13.5, // starting zoom
+    bearing: 315
+  });
+
+  map.on('load', function() {
+    map.addSource('maine', {
+      'type': 'geojson',
+      'data': item
+    });
+    map.addLayer({
+      'id': 'maine',
+      'type': 'fill',
+      'source': 'maine',
+      'layout': {},
+      'paint': {
+        'fill-color': [
+          'match',
+          [
+            'get', 'use'
+          ],
+          'office',
+          '#FF0000',
+          'resi',
+          '#00ff00',
+          /*other*/
+          '#7AD7F0'
+        ],
+        'fill-opacity': 0.6
+    }
+  });
+
+    // When a click event occurs on a feature in the places layer, open a popup at the
+    // location of the feature, with description HTML from its properties.
+  map.on('click', 'maine', function (e) {
+    var coordinates = e.features[0].geometry.coordinates[0][0]; // get just the first set of coordinates. Prob better to figure out centerpoint in future
+    var name = e.features[0].properties.project;
+    var year = e.features[0].properties.year;
+    var address = e.features[0].properties.address;
+    var use = e.features[0].properties.use;
+    var program = e.features[0].properties.gfa.toLocaleString();
+    var status = e.features[0].properties.status;
+    //var lease = e.features[0].properties.office_prelease.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:1});
+    var image = e.features[0].properties.aws_link;
+    var website = e.features[0].properties.websites;
+    console.log(name);
+    console.log(coordinates);
+    console.log("image links?");
+    console.log(image);
+
+    // Ensure that if the map is zoomed out such that multiple
+    // copies of the feature are visible, the popup appears
+    // over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+      .setLngLat(coordinates)
+      .setHTML(
+      '<div class="card" style="width: 18rem;">'+
+        '<img class="card-img-top" alt="Card image cap"' + 'src=' + image + '>'+
+        '<div class="card-body">'+
+          '<h5 class="card-title">'+ name + '</h5>'+
+          '<table class="table table-sm table-striped">'+
+              '<thead>'+
+                '<tr>'+
+                  '<th scope="col">Category</th>'+
+                  '<th scope="col">Details</th>'+
+                '</tr>'+
+              '</thead>'+
+              '<tbody>'+
+                '<tr>'+
+                  '<th scope="row">Year</th>'+
+                  '<td colspan="2">'+ year +'</td>'+
+                '</tr>'+
+                '<tr>'+
+                  '<th scope="row">Address</th>'+
+                  '<td>'+ address +'</td>'+
+                '</tr>'+
+                '<tr>'+
+                  '<th scope="row">Program</th>'+
+                  '<td colspan="2">'+ program +'</td>'+
+                '</tr>'+
+                '<tr>'+
+                  '<th scope="row">Status</th>'+
+                  '<td>'+ status +'</td>'+
+                '</tr>'+
+              '</table>'+
+          '<a href=' + '"'+ website + '"'+ 'target="_blank" class="btn btn-primary">View Website</a>'+
+        '</div>'+
+      '</div>'
+      )
+      .addTo(map);
+    });
+
+    // Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'maine', function () {
+    map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'maine', function () {
+    map.getCanvas().style.cursor = '';
+    });
+
+    //add layers for blip
+    map.addSource('point', {
+      "type": "geojson",
+      "data": {
+        "type": "Point",
+        "coordinates": [-104.992166, 39.751176]
+      }
+    });
+    map.addLayer({
+      "id": "point",
+      "source": "point",
+      "type": "circle",
+      "paint": {
+        "circle-radius": initialRadius,
+        "circle-radius-transition": {
+          duration: 0
+        },
+        "circle-opacity-transition": {
+          duration: 0
+        },
+        "circle-color": "#256DFC"
+      }
+    });
+    map.addLayer({
+      "id": "point1",
+      "source": "point",
+      "type": "circle",
+      "paint": {
+        "circle-radius": initialRadius,
+        "circle-color": "#2558BD"
+      }
+    });
+    animateMarker(0);
+  });
+</script>
+{% endblock %}

@@ -1,4 +1,4 @@
-from flask import Flask, request, json, jsonify, render_template, make_response
+from flask import Flask, Blueprint, request, json, jsonify, render_template, make_response
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 import pandas as pd
@@ -7,31 +7,57 @@ import os
 
 #https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/
 
-app = Flask(__name__)
+from . import db
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:pgsuper007@localhost:5432/cars_api"
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False #get rid of annoying warning
-db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+main = Blueprint('main', __name__ )
 
-@app.route('/base', methods=["GET"])
+migrate = Migrate(main, db)
+
+@main.route('/base', methods=["GET"])
 def base():
     return render_template("base.html")
 
-@app.route('/login', methods=["GET"])
-def login():
-    return render_template("login.html")
+@main.route('/signin', methods=["GET"])
+def signin():
+    user = {'username': 'Miguel'}
+    return render_template("login.html",user=user)
 
-@app.route('/denver', methods=["GET"])
+@main.route('/profile')
+def profile():
+    posts = [
+        {
+            'author': {'username': 'John'},
+            'body': 'Beautiful day in Portland!'
+        },
+        {
+            'author': {'username': 'Susan'},
+            'body': 'The Avengers movie was so cool!'
+        }
+    ]
+    return 'Profile'
+
+@main.route('/denver', methods=["GET"])
 def denver():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "denver_clear.geojson")
     data = json.load(open(json_url))
-    print(type(data))
-    print(data)
     return render_template("denver.html",data=data)
 
-@app.route('/geo', methods=["GET"])
+@main.route('/denver_cbd', methods=["GET"])
+def denver_cbd():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "denver_fixed_supply.geojson")
+    data = json.load(open(json_url))
+    gdf = gpd.GeoDataFrame(data,geometry='geometry')
+    filter = gdf[gdf['use']=="office"]
+    print("filter results")
+    print(filter)
+    print(type(data))
+    print(data)
+    return render_template("denver_cbd.html",data=data)
+
+
+@main.route('/geo', methods=["GET"])
 def geojson_to_gpd():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "denver_clear.geojson")
@@ -40,20 +66,20 @@ def geojson_to_gpd():
     print(gdf.columns)
     return render_template("geo.html",data=gdf)
 
-@app.route('/', methods=["GET"])
-@app.route('/index', methods=["GET"])
+@main.route('/', methods=["GET"])
+@main.route('/index', methods=["GET"])
 def index():
     return render_template("index.html")
 
-@app.route('/form', methods=["GET","POST"])
+@main.route('/form', methods=["GET","POST"])
 def form():
     return render_template("form.html")
 
-@app.route('/landing', methods=["GET"])
+@main.route('/landing', methods=["GET"])
 def landing():
     return render_template("landing.html")
 
-@app.route('/salesforce', methods=["GET"])
+@main.route('/salesforce', methods=["GET"])
 def salesforce():
     return render_template("salesforce.html")
 
@@ -62,7 +88,7 @@ def salesforce():
 LEASING FOR NEW BUILDINGS
 
 """
-@app.route('/map', methods=["GET"])
+@main.route('/map', methods=["GET"])
 def map():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "nashville_bldg_footprints.geojson")
@@ -114,7 +140,7 @@ class CarsModel(db.Model):
     def __repr__(self):
         return f"<Car {self.name}>"
 
-@app.route('/cars', methods=['POST', 'GET'])
+@main.route('/cars', methods=['POST', 'GET'])
 def handle_cars():
     if request.method == 'POST':
         if request.is_json:
@@ -139,7 +165,7 @@ def handle_cars():
 
         return jsonify({"count": len(results), "cars": results, "message": "success"})
 
-@app.route('/cars/<car_id>', methods=['GET','PUT','DELETE'])
+@main.route('/cars/<car_id>', methods=['GET','PUT','DELETE'])
 def handle_car(car_id):
     car = CarsModel.query.get_or_404(car_id)
 

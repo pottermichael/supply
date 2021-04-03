@@ -4,7 +4,7 @@ body {
 }
 
 body {
-  display: flex;
+  dispslay: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -19,6 +19,7 @@ body {
 }
 .form-signin .checkbox {
   font-weight: 400;
+  color: #267FA2;
 }
 .form-signin .form-control {
   position: relative;
