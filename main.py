@@ -56,6 +56,18 @@ def denver_cbd():
     print(data)
     return render_template("denver_cbd.html",data=data)
 
+@main.route('/chicago', methods=["GET"])
+def chicago():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_supply_final.geojson")
+    data = json.load(open(json_url))
+    #gdf = gpd.GeoDataFrame(open(json_url),geometry='geometry')
+    #filter = gdf[gdf['use']=="office"]
+    print("filter results")
+    #print(gdf)
+    print(type(data))
+    print(data)
+    return render_template("chicago.html",data=data)
 
 @main.route('/geo', methods=["GET"])
 def geojson_to_gpd():

@@ -18,7 +18,7 @@
         "ext_plan": "Existing",
         "gfa": 1500000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/600W.jpg"
       },
       "geometry": {
@@ -67,7 +67,7 @@
         "ext_plan": "Existing",
         "gfa": 684000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Kinzie+Park.jpg"
       },
       "geometry": {
@@ -1262,7 +1262,7 @@
         "ext_plan": "Existing",
         "gfa": 1373754,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/UBS+Tower.jpg"
       },
       "geometry": {
@@ -1312,7 +1312,7 @@
         "ext_plan": "Existing",
         "gfa": 473000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Grand+Plaza.jpg"
       },
       "geometry": {
@@ -1348,7 +1348,7 @@
         "ext_plan": "Existing",
         "gfa": 300000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Riverbend.jpg"
       },
       "geometry": {
@@ -1388,7 +1388,7 @@
         "ext_plan": "Existing",
         "gfa": 1504000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Citadel.jpg"
       },
       "geometry": {
@@ -1429,7 +1429,7 @@
         "ext_plan": "Existing",
         "gfa": 1027683,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Deloitte.jpg"
       },
       "geometry": {
@@ -1464,7 +1464,7 @@
         "ext_plan": "Existing",
         "gfa": 1490825,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Hyatt.jpg"
       },
       "geometry": {
@@ -1513,7 +1513,7 @@
         "ext_plan": "Existing",
         "gfa": 820915,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Sidley.jpg"
       },
       "geometry": {
@@ -1547,7 +1547,7 @@
         "ext_plan": "Existing",
         "gfa": 171000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Bernardin.jpg"
       },
       "geometry": {
@@ -1581,7 +1581,7 @@
         "ext_plan": "Existing",
         "gfa": 481000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Streeter.jpg"
       },
       "geometry": {
@@ -1622,7 +1622,7 @@
         "ext_plan": "Existing",
         "gfa": 481000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Streeter.jpg"
       },
       "geometry": {
@@ -1663,7 +1663,7 @@
         "ext_plan": "Existing",
         "gfa": 445000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Left+Bank.jpg"
       },
       "geometry": {
@@ -1713,7 +1713,7 @@
         "ext_plan": "Existing",
         "gfa": 410000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Kingsbury+Plaza.jpg"
       },
       "geometry": {
@@ -1786,7 +1786,7 @@
         "ext_plan": "Existing",
         "gfa": 410000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Kingsbury+Plaza.jpg"
       },
       "geometry": {
@@ -1856,7 +1856,7 @@
         "ext_plan": "Existing",
         "gfa": 350000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Echelon.jpg"
       },
       "geometry": {
@@ -1898,8 +1898,8 @@
         "ext_plan": "Existing",
         "gfa": 350000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -1934,7 +1934,7 @@
         "ext_plan": "Existing",
         "gfa": 1302901,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/300+LaSalle.jpg"
       },
       "geometry": {
@@ -1971,7 +1971,7 @@
         "ext_plan": "Existing",
         "gfa": 1173643,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/353+N+Clark.jpg"
       },
       "geometry": {
@@ -2022,7 +2022,7 @@
         "ext_plan": "Existing",
         "gfa": 1152953,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/155+N+Wacker.jpg"
       },
       "geometry": {
@@ -2058,7 +2058,7 @@
         "ext_plan": "Existing",
         "gfa": 480000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Atwater.jpg"
       },
       "geometry": {
@@ -2103,8 +2103,8 @@
         "ext_plan": "Existing",
         "gfa": 480000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -2145,7 +2145,7 @@
         "ext_plan": "Existing",
         "gfa": 467000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Aqua.jpg"
       },
       "geometry": {
@@ -2186,8 +2186,8 @@
         "ext_plan": "Existing",
         "gfa": 467000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -2220,7 +2220,7 @@
         "ext_plan": "Existing",
         "gfa": 282000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Mondial.jpg"
       },
       "geometry": {
@@ -2256,7 +2256,7 @@
         "ext_plan": "Existing",
         "gfa": 848000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Alta.jpg"
       },
       "geometry": {
@@ -2303,8 +2303,8 @@
         "ext_plan": "Existing",
         "gfa": 387000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -2343,7 +2343,7 @@
         "ext_plan": "Existing",
         "gfa": 249000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/EnV.jpg"
       },
       "geometry": {
@@ -2378,7 +2378,7 @@
         "ext_plan": "Existing",
         "gfa": 221000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Parc+Huron.jpg"
       },
       "geometry": {
@@ -2420,7 +2420,7 @@
         "ext_plan": "Existing",
         "gfa": 198000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Flair+Tower.jpg"
       },
       "geometry": {
@@ -2454,7 +2454,7 @@
         "ext_plan": "Existing",
         "gfa": 515000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Coast.jpg"
       },
       "geometry": {
@@ -2490,7 +2490,7 @@
         "ext_plan": "Existing",
         "gfa": 496000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/K2.jpg"
       },
       "geometry": {
@@ -2530,7 +2530,7 @@
         "ext_plan": "Existing",
         "gfa": 494000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/500+N+Lake+Shore+Drive.jpg"
       },
       "geometry": {
@@ -2564,7 +2564,7 @@
         "ext_plan": "Existing",
         "gfa": 440000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Hubbard+Place.jpg"
       },
       "geometry": {
@@ -2607,8 +2607,8 @@
         "ext_plan": "Existing",
         "gfa": 440000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -2644,7 +2644,7 @@
         "ext_plan": "Existing",
         "gfa": 409000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/AMLI.jpg"
       },
       "geometry": {
@@ -2679,8 +2679,8 @@
         "ext_plan": "Existing",
         "gfa": 409000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -2713,7 +2713,7 @@
         "ext_plan": "Existing",
         "gfa": 323000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Aston.jpg"
       },
       "geometry": {
@@ -2749,7 +2749,7 @@
         "ext_plan": "Existing",
         "gfa": 2500000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/The+Mart.jpg"
       },
       "geometry": {
@@ -2801,7 +2801,7 @@
         "ext_plan": "Existing",
         "gfa": 504000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/OneEleven.jpeg"
       },
       "geometry": {
@@ -2835,7 +2835,7 @@
         "ext_plan": "Existing",
         "gfa": 332000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/73+E+Lake.jpg"
       },
       "geometry": {
@@ -2870,7 +2870,7 @@
         "ext_plan": "Existing",
         "gfa": 223000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Catalyst.jpg"
       },
       "geometry": {
@@ -2906,7 +2906,7 @@
         "ext_plan": "Existing",
         "gfa": 216000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Madison+Racine.jpg"
       },
       "geometry": {
@@ -2947,7 +2947,7 @@
         "ext_plan": "Existing",
         "gfa": 531190,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Google+1K.jpg"
       },
       "geometry": {
@@ -2977,7 +2977,7 @@
       "properties": {
         "year": 2015,
         "use": "Resi",
-        "project": "North Water",
+        "project": "Loews",
         "address": "340 E North Water St",
         "zip": 60611,
         "comb_add": "340 E North Water St, 60611, Chicago, Illinois",
@@ -2990,7 +2990,7 @@
         "ext_plan": "Existing",
         "gfa": 398000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/North+Water.jpeg"
       },
       "geometry": {
@@ -3026,8 +3026,8 @@
         "ext_plan": "Existing",
         "gfa": 398000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -3062,7 +3062,7 @@
         "ext_plan": "Existing",
         "gfa": 367000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/State+%26+Chestnut.jpg"
       },
       "geometry": {
@@ -3097,7 +3097,7 @@
         "ext_plan": "Existing",
         "gfa": 350000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Arkadia.jpg"
       },
       "geometry": {
@@ -3131,8 +3131,8 @@
         "ext_plan": "Existing",
         "gfa": 350000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -3167,7 +3167,7 @@
         "ext_plan": "Existing",
         "gfa": 276000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Eight-O-Five.jpg"
       },
       "geometry": {
@@ -3201,7 +3201,7 @@
         "ext_plan": "Existing",
         "gfa": 240000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Xavier.jpg"
       },
       "geometry": {
@@ -3235,7 +3235,7 @@
         "ext_plan": "Existing",
         "gfa": 190000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Jeff+Jack.jpg"
       },
       "geometry": {
@@ -3271,7 +3271,7 @@
         "ext_plan": "Existing",
         "gfa": 188000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Jones.jpg"
       },
       "geometry": {
@@ -3305,8 +3305,8 @@
         "ext_plan": "Existing",
         "gfa": 167000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -3339,7 +3339,7 @@
         "ext_plan": "Existing",
         "gfa": 149000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Circa+922.jpg"
       },
       "geometry": {
@@ -3383,7 +3383,7 @@
         "ext_plan": "Existing",
         "gfa": 1225000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/150+N+Riverside.jpg"
       },
       "geometry": {
@@ -3419,7 +3419,7 @@
         "ext_plan": "Existing",
         "gfa": 1065000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/River+Point.jpg"
       },
       "geometry": {
@@ -3467,7 +3467,7 @@
         "ext_plan": "Existing",
         "gfa": 694000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Marquee.jpg"
       },
       "geometry": {
@@ -3505,8 +3505,8 @@
         "ext_plan": "Existing",
         "gfa": 694000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -3552,7 +3552,7 @@
         "ext_plan": "Existing",
         "gfa": 509000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/WPW.jpg"
       },
       "geometry": {
@@ -3596,7 +3596,7 @@
         "ext_plan": "Existing",
         "gfa": 490000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Moment.jpg"
       },
       "geometry": {
@@ -3634,8 +3634,8 @@
         "ext_plan": "Existing",
         "gfa": 402000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -3669,7 +3669,7 @@
         "ext_plan": "Existing",
         "gfa": 307000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/NEXT+347+W+Chestnut.jpg"
       },
       "geometry": {
@@ -3706,7 +3706,7 @@
         "ext_plan": "Existing",
         "gfa": 227000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Parker.jpg"
       },
       "geometry": {
@@ -3744,8 +3744,8 @@
         "ext_plan": "Existing",
         "gfa": 227000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -3780,7 +3780,7 @@
         "ext_plan": "Existing",
         "gfa": 70000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/4+E+Elm.jpg"
       },
       "geometry": {
@@ -3814,7 +3814,7 @@
         "ext_plan": "Existing",
         "gfa": 484000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Optima.jpg"
       },
       "geometry": {
@@ -3850,7 +3850,7 @@
         "ext_plan": "Existing",
         "gfa": 444000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Gallery.jpg"
       },
       "geometry": {
@@ -3884,7 +3884,7 @@
         "ext_plan": "Existing",
         "gfa": 363000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Aurelien.jpg"
       },
       "geometry": {
@@ -3918,7 +3918,7 @@
         "ext_plan": "Existing",
         "gfa": 363000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Spoke.jpg"
       },
       "geometry": {
@@ -3954,7 +3954,7 @@
         "ext_plan": "Existing",
         "gfa": 308000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Landmark+West+Loop.JPG"
       },
       "geometry": {
@@ -3988,7 +3988,7 @@
         "ext_plan": "Existing",
         "gfa": 298000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Exhibit.jpg"
       },
       "geometry": {
@@ -4024,7 +4024,7 @@
         "ext_plan": "Existing",
         "gfa": 290000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Fulton+West.jpg"
       },
       "geometry": {
@@ -4064,7 +4064,7 @@
         "ext_plan": "Existing",
         "gfa": 265000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Linea.jpg"
       },
       "geometry": {
@@ -4099,7 +4099,7 @@
         "ext_plan": "Existing",
         "gfa": 251000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/640+Wells.jpg"
       },
       "geometry": {
@@ -4133,7 +4133,7 @@
         "ext_plan": "Existing",
         "gfa": 240000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Hudson.jpg"
       },
       "geometry": {
@@ -4167,7 +4167,7 @@
         "ext_plan": "Existing",
         "gfa": 219000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Hubbard+221.jpg"
       },
       "geometry": {
@@ -4201,7 +4201,7 @@
         "ext_plan": "Existing",
         "gfa": 202000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Niche+905.jpg"
       },
       "geometry": {
@@ -4235,7 +4235,7 @@
         "ext_plan": "Existing",
         "gfa": 199000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Emme.jpg"
       },
       "geometry": {
@@ -4269,7 +4269,7 @@
         "ext_plan": "Existing",
         "gfa": 138000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Walton+No+9.jpg"
       },
       "geometry": {
@@ -4305,7 +4305,7 @@
         "ext_plan": "Existing",
         "gfa": 102000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/State+%26+Huron.jpg"
       },
       "geometry": {
@@ -4339,7 +4339,7 @@
         "ext_plan": "Existing",
         "gfa": 90000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/400+W+Huron.jpg"
       },
       "geometry": {
@@ -4373,7 +4373,7 @@
         "ext_plan": "Existing",
         "gfa": 82000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Ronsley+-+676+N+Kingsbury.jpg"
       },
       "geometry": {
@@ -4419,8 +4419,8 @@
         "ext_plan": "Existing",
         "gfa": 49000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -4453,7 +4453,7 @@
         "ext_plan": "Existing",
         "gfa": 49000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Linkt.jpg"
       },
       "geometry": {
@@ -4487,7 +4487,7 @@
         "ext_plan": "Existing",
         "gfa": 40000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/165+N+Aberdeen.jpg"
       },
       "geometry": {
@@ -4521,8 +4521,8 @@
         "ext_plan": "Existing",
         "gfa": 27000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -4555,8 +4555,8 @@
         "ext_plan": "Existing",
         "gfa": 820000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -4592,7 +4592,7 @@
         "ext_plan": "Existing",
         "gfa": 608000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/McDonalds.jpg"
       },
       "geometry": {
@@ -4630,8 +4630,8 @@
         "ext_plan": "Existing",
         "gfa": 452000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -4664,7 +4664,7 @@
         "ext_plan": "Existing",
         "gfa": 444000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/465+N+Park.jpg"
       },
       "geometry": {
@@ -4718,7 +4718,7 @@
         "ext_plan": "Existing",
         "gfa": 425000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/CDW.jpg"
       },
       "geometry": {
@@ -4755,7 +4755,7 @@
         "ext_plan": "Existing",
         "gfa": 405000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Old+Town+Park+-+PH+II.jpg"
       },
       "geometry": {
@@ -4792,7 +4792,7 @@
         "ext_plan": "Existing",
         "gfa": 395733,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/One+South+Halsted+-+727+W+Madison.jpg"
       },
       "geometry": {
@@ -4826,7 +4826,7 @@
         "ext_plan": "Existing",
         "gfa": 320000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Eleven40.jpg"
       },
       "geometry": {
@@ -4861,8 +4861,8 @@
         "ext_plan": "Existing",
         "gfa": 300000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -4895,7 +4895,7 @@
         "ext_plan": "Existing",
         "gfa": 245000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/3Eleven.jpg"
       },
       "geometry": {
@@ -4929,7 +4929,7 @@
         "ext_plan": "Existing",
         "gfa": 230000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Bush+Temple.jpg"
       },
       "geometry": {
@@ -4978,7 +4978,7 @@
         "ext_plan": "Existing",
         "gfa": 218000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Vendor+Village.jpg"
       },
       "geometry": {
@@ -5012,7 +5012,7 @@
         "ext_plan": "Existing",
         "gfa": 180000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Marlowe.jpg"
       },
       "geometry": {
@@ -5046,7 +5046,7 @@
         "ext_plan": "Existing",
         "gfa": 149000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/The+Ardus.jpg"
       },
       "geometry": {
@@ -5080,7 +5080,7 @@
         "ext_plan": "Existing",
         "gfa": 135000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Twelve01West.jpg"
       },
       "geometry": {
@@ -5114,7 +5114,7 @@
         "ext_plan": "Existing",
         "gfa": 105000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/710+W+Grand.jpg"
       },
       "geometry": {
@@ -5150,7 +5150,7 @@
         "ext_plan": "Existing",
         "gfa": 102000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Renelle.jpg"
       },
       "geometry": {
@@ -5184,7 +5184,7 @@
         "ext_plan": "Existing",
         "gfa": 92000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Flats+Chicago+The+Otis.jpg"
       },
       "geometry": {
@@ -5218,7 +5218,7 @@
         "ext_plan": "Existing",
         "gfa": 75000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Quarters.jpg"
       },
       "geometry": {
@@ -5252,7 +5252,7 @@
         "ext_plan": "Existing",
         "gfa": 70000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Monroe+Aberdeen.jfif"
       },
       "geometry": {
@@ -5286,7 +5286,7 @@
         "ext_plan": "Existing",
         "gfa": 55000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Ashland+Place.jpg"
       },
       "geometry": {
@@ -5320,7 +5320,7 @@
         "ext_plan": "Existing",
         "gfa": 50000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/RX+Bar.jpg"
       },
       "geometry": {
@@ -5357,8 +5357,8 @@
         "ext_plan": "Existing",
         "gfa": 50000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -5391,7 +5391,7 @@
         "ext_plan": "Existing",
         "gfa": 45000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Spaces.jpg"
       },
       "geometry": {
@@ -5429,7 +5429,7 @@
         "ext_plan": "Existing",
         "gfa": 2500000,
         "off_vac": 500000,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Post+Office.JPG"
       },
       "geometry": {
@@ -5479,7 +5479,7 @@
         "ext_plan": "Existing",
         "gfa": 792000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Nema+Chicago.jpg"
       },
       "geometry": {
@@ -5513,7 +5513,7 @@
         "ext_plan": "Existing",
         "gfa": 698000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/WPE.jpg"
       },
       "geometry": {
@@ -5559,7 +5559,7 @@
         "ext_plan": "Existing",
         "gfa": 500000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Paragon.jpg"
       },
       "geometry": {
@@ -5595,7 +5595,7 @@
         "ext_plan": "Existing",
         "gfa": 479000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Essex+on+the+Park.jpg"
       },
       "geometry": {
@@ -5629,8 +5629,8 @@
         "ext_plan": "Existing",
         "gfa": 358000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -5671,7 +5671,7 @@
         "ext_plan": "Existing",
         "gfa": 346000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Alta+Grand+Central.jpg"
       },
       "geometry": {
@@ -5709,7 +5709,7 @@
         "ext_plan": "Existing",
         "gfa": 315000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/West+End.jpg"
       },
       "geometry": {
@@ -5745,7 +5745,7 @@
         "ext_plan": "Existing",
         "gfa": 279000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/One+Bennett+Park.jpg"
       },
       "geometry": {
@@ -5784,7 +5784,7 @@
         "ext_plan": "Existing",
         "gfa": 264000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Milieu.jpg"
       },
       "geometry": {
@@ -5818,7 +5818,7 @@
         "ext_plan": "Existing",
         "gfa": 263000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/The+Mason.jpg"
       },
       "geometry": {
@@ -5855,7 +5855,7 @@
         "ext_plan": "Existing",
         "gfa": 207000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Millennium+on+LaSalle.jpg"
       },
       "geometry": {
@@ -5889,7 +5889,7 @@
         "ext_plan": "Existing",
         "gfa": 206055,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/145+S+Wells.jpg"
       },
       "geometry": {
@@ -5923,8 +5923,8 @@
         "ext_plan": "Existing",
         "gfa": 190000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -5958,8 +5958,8 @@
         "ext_plan": "Existing",
         "gfa": 176000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -5995,7 +5995,7 @@
         "ext_plan": "Existing",
         "gfa": 158000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Illume.jpg"
       },
       "geometry": {
@@ -6031,7 +6031,7 @@
         "ext_plan": "Existing",
         "gfa": 134000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/30+E+Balbo.jpg"
       },
       "geometry": {
@@ -6065,7 +6065,7 @@
         "ext_plan": "Existing",
         "gfa": 130000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/One+Bennett+Park.jpg"
       },
       "geometry": {
@@ -6104,8 +6104,8 @@
         "ext_plan": "Existing",
         "gfa": 77100,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6138,7 +6138,7 @@
         "ext_plan": "Existing",
         "gfa": 76000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Citizen+Bar.jfif"
       },
       "geometry": {
@@ -6172,7 +6172,7 @@
         "ext_plan": "Existing",
         "gfa": 70000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/811+Fulton.jpg"
       },
       "geometry": {
@@ -6206,7 +6206,7 @@
         "ext_plan": "Existing",
         "gfa": 68000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Superior+House.jpg"
       },
       "geometry": {
@@ -6241,8 +6241,8 @@
         "ext_plan": "Existing",
         "gfa": 62000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6275,7 +6275,7 @@
         "ext_plan": "Existing",
         "gfa": 12000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/351+W+Huron.jpg"
       },
       "geometry": {
@@ -6309,8 +6309,8 @@
         "ext_plan": "Existing",
         "gfa": 1300000,
         "off_vac": 260000,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6346,7 +6346,7 @@
         "ext_plan": "Existing",
         "gfa": 656500,
         "off_vac": 581500,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Spectre.jpg"
       },
       "geometry": {
@@ -6384,7 +6384,7 @@
         "ext_plan": "Existing",
         "gfa": 586000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/H2O.jpg"
       },
       "geometry": {
@@ -6420,7 +6420,7 @@
         "ext_plan": "Existing",
         "gfa": 547000,
         "off_vac": 109400,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/WPP.jpg"
       },
       "geometry": {
@@ -6456,7 +6456,7 @@
         "ext_plan": "Existing",
         "gfa": 400000,
         "off_vac": 200000,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Thor.jpg"
       },
       "geometry": {
@@ -6490,8 +6490,8 @@
         "ext_plan": "Existing",
         "gfa": 337000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6524,7 +6524,7 @@
         "ext_plan": "Existing",
         "gfa": 250000,
         "off_vac": 250000,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/310+N+Sangamon.jpg"
       },
       "geometry": {
@@ -6558,7 +6558,7 @@
         "ext_plan": "Existing",
         "gfa": 226000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Avenir.jpg"
       },
       "geometry": {
@@ -6594,7 +6594,7 @@
         "ext_plan": "Existing",
         "gfa": 188000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/740+N+Aberdeen.png"
       },
       "geometry": {
@@ -6630,7 +6630,7 @@
         "ext_plan": "Existing",
         "gfa": 148000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/808+Van+Buren.jpg"
       },
       "geometry": {
@@ -6666,7 +6666,7 @@
         "ext_plan": "Existing",
         "gfa": 120000,
         "off_vac": 120000,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/215+N+Peoria.jpg"
       },
       "geometry": {
@@ -6700,7 +6700,7 @@
         "ext_plan": "Existing",
         "gfa": 98000,
         "off_vac": 98000,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/328+N+Carpenter.jpg"
       },
       "geometry": {
@@ -6737,8 +6737,8 @@
         "ext_plan": "Planned",
         "gfa": 90000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6771,7 +6771,7 @@
         "ext_plan": "Existing",
         "gfa": 44000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/900W.jpg"
       },
       "geometry": {
@@ -6805,8 +6805,8 @@
         "ext_plan": "Existing",
         "gfa": 42000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6839,8 +6839,8 @@
         "ext_plan": "Existing",
         "gfa": 812000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6887,7 +6887,7 @@
         "ext_plan": "Existing",
         "gfa": 460000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Trib+-+Landmark.jpg"
       },
       "geometry": {
@@ -6930,8 +6930,8 @@
         "ext_plan": "Existing",
         "gfa": 460000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -6969,8 +6969,8 @@
         "ext_plan": "Planned",
         "gfa": 373000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -7003,8 +7003,8 @@
         "ext_plan": "Planned",
         "gfa": 314000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -7043,7 +7043,7 @@
         "ext_plan": "Existing",
         "gfa": 297000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/808+N+Wells.jpg"
       },
       "geometry": {
@@ -7077,7 +7077,7 @@
         "ext_plan": "Existing",
         "gfa": 240000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/50+E+Randolph.jpg"
       },
       "geometry": {
@@ -7111,8 +7111,8 @@
         "ext_plan": "Existing",
         "gfa": 180000,
         "off_vac": 90000,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -7147,7 +7147,7 @@
         "ext_plan": "Planned",
         "gfa": 166000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1220+W+Jackson.jpeg"
       },
       "geometry": {
@@ -7181,7 +7181,7 @@
         "ext_plan": "Planned",
         "gfa": 142000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/301+W+Huron.jpg"
       },
       "geometry": {
@@ -7215,7 +7215,7 @@
         "ext_plan": "Existing",
         "gfa": 97000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/800+N+Milwaukee.jpg"
       },
       "geometry": {
@@ -7249,7 +7249,7 @@
         "ext_plan": "Existing",
         "gfa": 90000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/The+Shops+%40.jpg"
       },
       "geometry": {
@@ -7295,7 +7295,7 @@
         "ext_plan": "Existing",
         "gfa": 52000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Tramco+Pump.jpg"
       },
       "geometry": {
@@ -7329,7 +7329,7 @@
         "ext_plan": "Existing",
         "gfa": 1350000,
         "off_vac": 675000,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Union+Station.jpg"
       },
       "geometry": {
@@ -7364,7 +7364,7 @@
         "ext_plan": "Existing",
         "gfa": 794000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1+chicago.jpg"
       },
       "geometry": {
@@ -7418,7 +7418,7 @@
         "ext_plan": "Existing",
         "gfa": 726000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Cirrus.jpg"
       },
       "geometry": {
@@ -7452,7 +7452,7 @@
         "ext_plan": "Planned",
         "gfa": 401000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Guy+%26+Sons.jpg"
       },
       "geometry": {
@@ -7489,8 +7489,8 @@
         "ext_plan": "Existing",
         "gfa": 387000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -7526,7 +7526,7 @@
         "ext_plan": "Planned",
         "gfa": 370000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Equinox.jpg"
       },
       "geometry": {
@@ -7586,7 +7586,7 @@
         "ext_plan": "Planned",
         "gfa": 351000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1061+W+Van+Buren.jpg"
       },
       "geometry": {
@@ -7620,8 +7620,8 @@
         "ext_plan": "Planned",
         "gfa": 330000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -7656,7 +7656,7 @@
         "ext_plan": "Existing",
         "gfa": 290000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Walgreens+NMA.jpg"
       },
       "geometry": {
@@ -7691,7 +7691,7 @@
         "ext_plan": "Planned",
         "gfa": 236000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Fabbri.jpg"
       },
       "geometry": {
@@ -7731,8 +7731,8 @@
         "ext_plan": "Planned",
         "gfa": 200000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -7771,8 +7771,8 @@
         "ext_plan": "Planned",
         "gfa": 197000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -7806,7 +7806,7 @@
         "ext_plan": "Planned",
         "gfa": 188000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/217+N+Jefferson.jpg"
       },
       "geometry": {
@@ -7848,7 +7848,7 @@
         "ext_plan": "Planned",
         "gfa": 156000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/19+N+May.jpg"
       },
       "geometry": {
@@ -7882,7 +7882,7 @@
         "ext_plan": "Existing",
         "gfa": 150000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/One+Chicago+-+Condo.jpg"
       },
       "geometry": {
@@ -7936,7 +7936,7 @@
         "ext_plan": "Existing",
         "gfa": 150000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/306+W+Erie.jpg"
       },
       "geometry": {
@@ -7970,8 +7970,8 @@
         "ext_plan": "Planned",
         "gfa": 62000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -8006,7 +8006,7 @@
         "ext_plan": "Planned",
         "gfa": 60000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Nearly-1.jpg"
       },
       "geometry": {
@@ -8040,8 +8040,8 @@
         "ext_plan": "Planned",
         "gfa": 45000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -8074,7 +8074,7 @@
         "ext_plan": "Planned",
         "gfa": 2500000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/greyhound.png"
       },
       "geometry": {
@@ -8138,8 +8138,8 @@
         "ext_plan": "Planned",
         "gfa": 550000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -8178,7 +8178,7 @@
         "ext_plan": "Planned",
         "gfa": 536000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Google-III.png"
       },
       "geometry": {
@@ -8214,7 +8214,7 @@
         "ext_plan": "Existing",
         "gfa": 503000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Cascade.jpg"
       },
       "geometry": {
@@ -8248,8 +8248,8 @@
         "ext_plan": "Planned",
         "gfa": 501390,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -8282,7 +8282,7 @@
         "ext_plan": "Planned",
         "gfa": 479160,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/ADM.jpg"
       },
       "geometry": {
@@ -8373,7 +8373,7 @@
         "ext_plan": "Planned",
         "gfa": 406000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Annunciation.jpg"
       },
       "geometry": {
@@ -8424,7 +8424,7 @@
         "ext_plan": "Planned",
         "gfa": 368000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Lou+Mals.jfif"
       },
       "geometry": {
@@ -8462,7 +8462,7 @@
         "ext_plan": "Existing",
         "gfa": 356000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Clark+%26+Barlow.jpg"
       },
       "geometry": {
@@ -8498,7 +8498,7 @@
         "ext_plan": "Planned",
         "gfa": 346400,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Revel.jpg"
       },
       "geometry": {
@@ -8534,7 +8534,7 @@
         "ext_plan": "Planned",
         "gfa": 343000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Cassidy.JPG"
       },
       "geometry": {
@@ -8570,8 +8570,8 @@
         "ext_plan": "Planned",
         "gfa": 300000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -8608,7 +8608,7 @@
         "ext_plan": "Existing",
         "gfa": 250000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Trib-+Condo.jpg"
       },
       "geometry": {
@@ -8643,7 +8643,7 @@
         "gfa": 202500,
         "off_vac": 0,
         "website": "http://lgdevelopmentgroup.com/1143-w-lake/",
-        "aws_image": null
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -8676,8 +8676,8 @@
         "ext_plan": "Existing",
         "gfa": 1300000,
         "off_vac": 650000,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -8714,7 +8714,7 @@
         "ext_plan": "Planned",
         "gfa": 550000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Spire+Multi.jpg"
       },
       "geometry": {
@@ -8751,7 +8751,7 @@
         "ext_plan": "Planned",
         "gfa": 2500000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/moody.png"
       },
       "geometry": {
@@ -9053,7 +9053,7 @@
         "ext_plan": "Planned",
         "gfa": 324000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Bird+Tower.jpg"
       },
       "geometry": {
@@ -9093,7 +9093,7 @@
         "ext_plan": "Planned",
         "gfa": 199500,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Nealey+Foods.jpg"
       },
       "geometry": {
@@ -9127,7 +9127,7 @@
         "ext_plan": "Planned",
         "gfa": 175000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/375+N+Morgan.jpg"
       },
       "geometry": {
@@ -9161,7 +9161,7 @@
         "ext_plan": "Existing",
         "gfa": 90000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/609+W+Randolph.jpg"
       },
       "geometry": {
@@ -9195,7 +9195,7 @@
         "ext_plan": "Planned",
         "gfa": 1295000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/301+S+Wacker.jpg"
       },
       "geometry": {
@@ -9243,8 +9243,8 @@
         "ext_plan": "Planned",
         "gfa": 1200000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -9277,7 +9277,7 @@
         "ext_plan": "Planned",
         "gfa": 1200000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/130+N+Fraklin.png"
       },
       "geometry": {
@@ -9313,7 +9313,7 @@
         "ext_plan": "Planned",
         "gfa": 842400,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/601+Monroe.jpg"
       },
       "geometry": {
@@ -9347,7 +9347,7 @@
         "ext_plan": "Planned",
         "gfa": 765000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Pickens+Kane.jpg"
       },
       "geometry": {
@@ -9392,8 +9392,8 @@
         "ext_plan": "Planned",
         "gfa": 765000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -9437,7 +9437,7 @@
         "ext_plan": "Planned",
         "gfa": 675000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Coyne+-+Loft.jpg"
       },
       "geometry": {
@@ -9471,7 +9471,7 @@
         "ext_plan": "Planned",
         "gfa": 616000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/540+West.jpg"
       },
       "geometry": {
@@ -9505,8 +9505,8 @@
         "ext_plan": "Planned",
         "gfa": 600000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -9543,8 +9543,8 @@
         "ext_plan": "Planned",
         "gfa": 600000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -9582,7 +9582,7 @@
         "ext_plan": "Planned",
         "gfa": 535000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/City+Tech+Center.jpg"
       },
       "geometry": {
@@ -9616,7 +9616,7 @@
         "ext_plan": "Planned",
         "gfa": 530000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/645+Madison.jpg"
       },
       "geometry": {
@@ -9651,8 +9651,8 @@
         "ext_plan": "Planned",
         "gfa": 500000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9818,8 +9818,8 @@
         "ext_plan": "Planned",
         "gfa": 500000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -9852,8 +9852,8 @@
         "ext_plan": "Planned",
         "gfa": 500000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -9890,7 +9890,7 @@
         "ext_plan": "Planned",
         "gfa": 492000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/40+E+Superior.png"
       },
       "geometry": {
@@ -9925,7 +9925,7 @@
         "ext_plan": "Planned",
         "gfa": 486000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1200+W+Carroll.jpg"
       },
       "geometry": {
@@ -9964,7 +9964,7 @@
         "ext_plan": "Planned",
         "gfa": 439000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Trib-Multi.jpg"
       },
       "geometry": {
@@ -10007,7 +10007,7 @@
         "ext_plan": "Planned",
         "gfa": 412500,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Fulton+West+2.JPG"
       },
       "geometry": {
@@ -10041,7 +10041,7 @@
         "ext_plan": "Existing",
         "gfa": 395000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Fulton+Labs.jpg"
       },
       "geometry": {
@@ -10075,7 +10075,7 @@
         "ext_plan": "Planned",
         "gfa": 285000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Pickens+Kane.jpg"
       },
       "geometry": {
@@ -10122,7 +10122,7 @@
         "ext_plan": "Planned",
         "gfa": 260000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Huron-Orleans.jpg"
       },
       "geometry": {
@@ -10156,7 +10156,7 @@
         "ext_plan": "Planned",
         "gfa": 252000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/BellyQ.jpg"
       },
       "geometry": {
@@ -10196,8 +10196,8 @@
         "ext_plan": "Planned",
         "gfa": 250000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10358,7 +10358,7 @@
         "ext_plan": "Planned",
         "gfa": 243000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1440+Randolph.jpg"
       },
       "geometry": {
@@ -10392,7 +10392,7 @@
         "ext_plan": "Planned",
         "gfa": 228000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Paddys.jpg"
       },
       "geometry": {
@@ -10426,7 +10426,7 @@
         "ext_plan": "Planned",
         "gfa": 225000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Warren+Barr.jpg"
       },
       "geometry": {
@@ -10460,8 +10460,8 @@
         "ext_plan": "Planned",
         "gfa": 225000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -10494,7 +10494,7 @@
         "ext_plan": "Planned",
         "gfa": 212500,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/AT%26T.jpg"
       },
       "geometry": {
@@ -10532,7 +10532,7 @@
         "ext_plan": "Planned",
         "gfa": 212000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Google+II.jpg"
       },
       "geometry": {
@@ -10566,7 +10566,7 @@
         "ext_plan": "Planned",
         "gfa": 200000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/460+W+Chicago.jpg"
       },
       "geometry": {
@@ -10600,7 +10600,7 @@
         "ext_plan": "Planned",
         "gfa": 157000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/401+W+Chicago.png"
       },
       "geometry": {
@@ -10645,7 +10645,7 @@
         "ext_plan": "Planned",
         "gfa": 150000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Hubbard+St+Dance.jpg"
       },
       "geometry": {
@@ -10683,7 +10683,7 @@
         "ext_plan": "Planned",
         "gfa": 136000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/320+W+Erie.jpg"
       },
       "geometry": {
@@ -10717,8 +10717,8 @@
         "ext_plan": "Planned",
         "gfa": 135000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -10751,7 +10751,7 @@
         "ext_plan": "Planned",
         "gfa": 127000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Walmart.jpg"
       },
       "geometry": {
@@ -10790,8 +10790,8 @@
         "ext_plan": "Planned",
         "gfa": 103000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -10828,7 +10828,7 @@
         "ext_plan": "Planned",
         "gfa": 100000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Ruth+Page.jpg"
       },
       "geometry": {
@@ -10862,7 +10862,7 @@
         "ext_plan": "Planned",
         "gfa": 100000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Escape+Pod.jpg"
       },
       "geometry": {
@@ -10896,8 +10896,8 @@
         "ext_plan": "Planned",
         "gfa": 100000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
@@ -10932,7 +10932,7 @@
         "ext_plan": "Planned",
         "gfa": 87000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1140+W+Erie.jpg"
       },
       "geometry": {
@@ -10967,8 +10967,8 @@
         "ext_plan": "Planned",
         "gfa": 84000,
         "off_vac": 0,
-        "website": null,
-        "aws_image": null
+        "website": "No Site Avail",
+        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11013,7 +11013,7 @@
         "ext_plan": "Planned",
         "gfa": 1500000,
         "off_vac": 0,
-        "website": null,
+        "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Thompson+Center.jpg"
       },
       "geometry": {
