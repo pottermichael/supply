@@ -56,6 +56,7 @@
   map.on('click', 'maine', function (e) {
     var coordinates = e.features[0].geometry.coordinates[0][0]; // get just the first set of coordinates. Prob better to figure out centerpoint in future
     var project = e.features[0].properties.project;
+    var developer = e.features[0].properties.developer;
     var year = e.features[0].properties.year;
     var address = e.features[0].properties.address;
     var use = e.features[0].properties.use;
@@ -63,7 +64,7 @@
     var status = e.features[0].properties.status;
     //var lease = e.features[0].properties.office_prelease.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:1});
     var image = e.features[0].properties.aws_image;
-    var website = e.features[0].properties.website;
+    //var website = e.features[0].properties.website;
     console.log(name);
     console.log(coordinates);
     console.log("image links?");
@@ -96,6 +97,10 @@
                   '<td colspan="2">'+ year +'</td>'+
                 '</tr>'+
                 '<tr>'+
+                  '<th scope="row">Developer</th>'+
+                  '<td colspan="2">'+ developer +'</td>'+
+                '</tr>'+
+                '<tr>'+
                   '<th scope="row">Address</th>'+
                   '<td>'+ address +'</td>'+
                 '</tr>'+
@@ -108,7 +113,7 @@
                   '<td>'+ status +'</td>'+
                 '</tr>'+
               '</table>'+
-          '<a href=' + '"'+ website + '"'+ 'target="_blank" class="btn btn-primary">View Website</a>'+
+          //'<a href=' + '"'+ website + '"'+ 'target="_blank" class="btn btn-primary">View Website</a>'+
         '</div>'+
       '</div>'
       )
