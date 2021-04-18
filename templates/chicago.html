@@ -5,9 +5,51 @@
     max-width: 400px;
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
   }
+  #menu {
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    border-radius: 3px;
+    width: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+#menu a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+
+#menu a:last-child {
+    border: none;
+  }
+
+#menu a:hover {
+  background-color: #f8f8f8;
+  color: #404040;
+}
+
+#menu a.active {
+  background-color: #3887be;
+  color: #ffffff;
+}
+
+#menu a.active:hover {
+  background: #3074a4;
+}
 </style>
 
 {% block content%}
+<nav id="menu"></nav>
 <div id='map'></div>
 <script src="/static/blipper.js" charset="utf-8"></script>
 <script>
@@ -25,14 +67,14 @@
   });
 
   map.on('load', function() {
-    map.addSource('maine', {
+    map.addSource('footprints', {
       'type': 'geojson',
       'data': item
     });
     map.addLayer({
-      'id': 'maine',
+      'id': 'footprints',
       'type': 'fill',
-      'source': 'maine',
+      'source': 'footprints',
       'layout': {},
       'paint': {
         'fill-color': [
@@ -50,10 +92,75 @@
         'fill-opacity': 0.6
       }
     });
+    map.addSource('cta', {
+      'type': 'geojson',
+      'data': isos
+    });
+    map.addLayer({
+      'id': 'cta',
+      'type': 'fill',
+      'source': 'cta',
+      'layout': {},
+      'paint': {
+        'fill-color': [
+          'match',
+          [
+            'get', 'line'
+          ],
+          'Blue',
+          '#00A1DE',
+          'Brown',
+          '#62361C',
+          'Green',
+          '#009B3A',
+          'Red',
+          '#C60E30',
+          'Orange',
+          '#F9461D',
+          /*other*/
+          '#7AD7F0'
+        ],
+        'fill-opacity': 0.33
+      }
+    });
+    //add layers for blip
+    map.addSource('point', {
+      "type": "geojson",
+      "data": {
+        "type": "Point",
+        "coordinates": [-87.630082, 41.881656]
+      }
+    });
+    map.addLayer({
+      "id": "point",
+      "source": "point",
+      "type": "circle",
+      "paint": {
+        "circle-radius": initialRadius,
+        "circle-radius-transition": {
+          duration: 0
+        },
+        "circle-opacity-transition": {
+          duration: 0
+        },
+        "circle-color": "#256DFC"
+      }
+    });
+    map.addLayer({
+      "id": "point1",
+      "source": "point",
+      "type": "circle",
+      "paint": {
+        "circle-radius": initialRadius,
+        "circle-color": "#2558BD"
+      }
+    });
+    animateMarker(0);
+  });
 
     // When a click event occurs on a feature in the places layer, open a popup at the
     // location of the feature, with description HTML from its properties.
-    map.on('click', 'maine', function(e) {
+    map.on('click', 'footprints', function(e) {
       var coordinates = e.features[0].geometry.coordinates[0][0]; // get just the first set of coordinates. Prob better to figure out centerpoint in future
       var project = e.features[0].properties.project;
       var developer = e.features[0].properties.developer;
@@ -121,82 +228,67 @@
     });
 
     // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', 'maine', function() {
+    map.on('mouseenter', 'footprints', function() {
       map.getCanvas().style.cursor = 'pointer';
     });
 
     // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'maine', function() {
+    map.on('mouseleave', 'footprints', function() {
       map.getCanvas().style.cursor = '';
     });
 
-    //add layers for blip
-    map.addSource('point', {
-      "type": "geojson",
-      "data": {
-        "type": "Point",
-        "coordinates": [-87.630082, 41.881656]
-      }
-    });
-    map.addLayer({
-      "id": "point",
-      "source": "point",
-      "type": "circle",
-      "paint": {
-        "circle-radius": initialRadius,
-        "circle-radius-transition": {
-          duration: 0
-        },
-        "circle-opacity-transition": {
-          duration: 0
-        },
-        "circle-color": "#256DFC"
-      }
-    });
-    map.addLayer({
-      "id": "point1",
-      "source": "point",
-      "type": "circle",
-      "paint": {
-        "circle-radius": initialRadius,
-        "circle-color": "#2558BD"
-      }
-    });
-    animateMarker(0);
-  });
+    // Toggle Layer for CTA
 
-  map.on('load', function() {
-    map.addSource('cta', {
-      'type': 'geojson',
-      'data': isos
-    });
-    map.addLayer({
-      'id': 'cta',
-      'type': 'fill',
-      'source': 'cta',
-      'layout': {},
-      'paint': {
-        'fill-color': [
-          'match',
-          [
-            'get', 'line'
-          ],
-          'Blue',
-          '#00A1DE',
-          'Brown',
-          '#62361C',
-          'Green',
-          '#009B3A',
-          'Red',
-          '#C60E30',
-          'Orange',
-          '#F9461D',
-          /*other*/
-          '#7AD7F0'
-        ],
-        'fill-opacity': 0.33
+  map.on('idle', function() {
+    // If these two layers have been added to the style,
+    // add the toggle buttons.
+    if (map.getLayer('cta')) {
+      // Enumerate ids of the layers.
+      var toggleableLayerIds = ['cta'];
+      // Set up the corresponding toggle button for each layer.
+      for (var i = 0; i < toggleableLayerIds.length; i++) {
+        var id = toggleableLayerIds[i];
+        if (!document.getElementById(id)) {
+          // Create a link.
+          var link = document.createElement('a');
+          link.id = id;
+          link.href = '#';
+          link.textContent = id;
+          link.className = 'active';
+          // Show or hide layer when the toggle is clicked.
+          link.onclick = function(e) {
+            var clickedLayer = this.textContent;
+            e.preventDefault();
+            e.stopPropagation();
+
+            var visibility = map.getLayoutProperty(
+              clickedLayer,
+              'visibility'
+            );
+
+            // Toggle layer visibility by changing the layout object's visibility property.
+            if (visibility === 'visible') {
+              map.setLayoutProperty(
+                clickedLayer,
+                'visibility',
+                'none'
+              );
+              this.className = '';
+            } else {
+              this.className = 'active';
+              map.setLayoutProperty(
+                clickedLayer,
+                'visibility',
+                'visible'
+              );
+            }
+          };
+
+          var layers = document.getElementById('menu');
+          layers.appendChild(link);
+        }
       }
-    });
+    }
   });
 </script>
 {% endblock %}
