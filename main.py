@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from flask import Flask, Blueprint, request, json, jsonify, render_template, make_response
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
