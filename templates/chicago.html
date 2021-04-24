@@ -11,7 +11,7 @@
     background: #fff;
     position: absolute;
     z-index: 1;
-    top: 150px;
+    top: 75px;
     right: 10px;
     border-radius: 3px;
     width: 120px;
@@ -48,6 +48,7 @@
 #menu a.active:hover {
   background: #3074a4;
 }
+
 </style>
 <nav id="menu"></nav>
 <div id='map'></div>
@@ -237,57 +238,57 @@
     map.getCanvas().style.cursor = '';
   });
 
-// Toggle Layer for CTA
-map.on('idle', function() {
-  // If these two layers have been added to the style,
-  // add the toggle buttons.
-  if (map.getLayer('cta' && map.getLayer('footprints'))) {
-    // Enumerate ids of the layers.
-    var toggleableLayerIds = ['cta','footprints'];
-    // Set up the corresponding toggle button for each layer.
-    for (var i = 0; i < toggleableLayerIds.length; i++) {
-      var id = toggleableLayerIds[i];
-      if (!document.getElementById(id)) {
-        // Create a link.
-        var link = document.createElement('a');
-        link.id = id;
-        link.href = '#';
-        link.textContent = id;
-        link.className = 'active';
-        // Show or hide layer when the toggle is clicked.
-        link.onclick = function(e) {
-          var clickedLayer = this.textContent;
-          e.preventDefault();
-          e.stopPropagation();
+  // Toggle Layer for CTA
+  map.on('load', function() {
+    // If these two layers have been added to the style,
+    // add the toggle buttons.
+    if (map.getLayer('cta') && map.getLayer('footprints')) {
+      // Enumerate ids of the layers.
+      var toggleableLayerIds = ['cta','footprints'];
+      // Set up the corresponding toggle button for each layer.
+      for (var i = 0; i < toggleableLayerIds.length; i++) {
+        var id = toggleableLayerIds[i];
+        if (!document.getElementById(id)) {
+          // Create a link.
+          var link = document.createElement('a');
+          link.id = id;
+          link.href = '#';
+          link.textContent = id;
+          link.className = 'active';
+          // Show or hide layer when the toggle is clicked.
+          link.onclick = function(e) {
+            var clickedLayer = this.textContent;
+            e.preventDefault();
+            e.stopPropagation();
 
-          var visibility = map.getLayoutProperty(
-            clickedLayer,
-            'visibility'
-          );
-
-          // Toggle layer visibility by changing the layout object's visibility property.
-          if (visibility === 'visible') {
-            map.setLayoutProperty(
+            var visibility = map.getLayoutProperty(
               clickedLayer,
-              'visibility',
-              'none'
+              'visibility'
             );
-            this.className = '';
-          } else {
-            this.className = 'active';
-            map.setLayoutProperty(
-              clickedLayer,
-              'visibility',
-              'visible'
-            );
-          }
-        };
 
-        var layers = document.getElementById('menu');
-        layers.appendChild(link);
+            // Toggle layer visibility by changing the layout object's visibility property.
+            if (visibility === 'visible') {
+              map.setLayoutProperty(
+                clickedLayer,
+                'visibility',
+                'none'
+              );
+              this.className = '';
+            } else {
+              this.className = 'active';
+              map.setLayoutProperty(
+                clickedLayer,
+                'visibility',
+                'visible'
+              );
+            }
+          };
+          var layers = document.getElementById('menu');
+          layers.appendChild(link);
+        }
       }
     }
-  }
-});
+  });
+
 </script>
 {% endblock %}
