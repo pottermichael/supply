@@ -159,6 +159,7 @@
     animateMarker(0);
   });
 
+
   // When a click event occurs on a feature in the places layer, open a popup at the
   // location of the feature, with description HTML from its properties.
   map.on('click', 'footprints', function(e) {
@@ -173,7 +174,7 @@
     //var lease = e.features[0].properties.office_prelease.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:1});
     var image = e.features[0].properties.aws_image;
     //var website = e.features[0].properties.website;
-    console.log(name);
+    console.log(project);
     console.log(coordinates);
     console.log("image links?");
     console.log(image);

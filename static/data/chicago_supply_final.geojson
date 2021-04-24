@@ -2990,7 +2990,7 @@
         "ext_plan": "Existing",
         "gfa": 398000,
         "off_vac": 0,
-        "website": "No Site Avail",
+        "website": "No Site Available",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/North+Water.jpeg"
       },
       "geometry": {
@@ -3023,42 +3023,6 @@
          41.890477
        ]
      ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "year": 2015,
-        "use": "Resi",
-        "project": "North Water",
-        "address": "340 E North Water St",
-        "zip": 60611,
-        "comb_add": "340 E North Water St, 60611, Chicago, Illinois",
-        "ward": 42,
-        "lat": 41.8898,
-        "long": -87.619,
-        "submarket": "Streeterville",
-        "developer": "DRW",
-        "status": "Stabilized",
-        "ext_plan": "Existing",
-        "gfa": 398000,
-        "off_vac": 0,
-        "website": "No Site Avail",
-        "aws_image": "No Site Avail"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.6195056, 41.8904772],
-            [-87.6187252, 41.8904927],
-            [-87.6187103, 41.8901297],
-            [-87.6186906, 41.8895804],
-            [-87.6194798, 41.8896343],
-            [-87.6194849, 41.8898012],
-            [-87.6195056, 41.8904772]
-          ]
         ]
       }
     },
@@ -3127,42 +3091,6 @@
             [-87.6467887, 41.8786341],
             [-87.646806, 41.8791463],
             [-87.6464353, 41.8791508]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "year": 2015,
-        "use": "Resi",
-        "project": "Arkadia",
-        "address": "765 W Adams St",
-        "zip": 60661,
-        "comb_add": "765 W Adams St, 60661, Chicago, Illinois",
-        "ward": 27,
-        "lat": 41.879,
-        "long": -87.6468,
-        "submarket": "Far West Loop",
-        "developer": "White Oak",
-        "status": "Stabilized",
-        "ext_plan": "Existing",
-        "gfa": 350000,
-        "off_vac": 0,
-        "website": "No Site Avail",
-        "aws_image": "No Site Avail"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.6471532, 41.8791393],
-            [-87.646806, 41.8791463],
-            [-87.6464353, 41.8791508],
-            [-87.6464241, 41.8786385],
-            [-87.6467887, 41.8786341],
-            [-87.647142, 41.878627],
-            [-87.6471532, 41.8791393]
           ]
         ]
       }
@@ -4491,40 +4419,6 @@
       "type": "Feature",
       "properties": {
         "year": 2017,
-        "use": "Office",
-        "project": "165 N Aberdeen",
-        "address": "165 N Aberdeen St",
-        "zip": 60607,
-        "comb_add": "165 N Aberdeen St, 60607, Chicago, Illinois",
-        "ward": 27,
-        "lat": 41.8853,
-        "long": -87.6542,
-        "submarket": "Fulton Market",
-        "developer": "MCZ",
-        "status": "Stabilized",
-        "ext_plan": "Existing",
-        "gfa": 40000,
-        "off_vac": 0,
-        "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/165+N+Aberdeen.jpg"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.6543755, 41.8854718],
-            [-87.6543598, 41.8848107],
-            [-87.6538673, 41.8848172],
-            [-87.6538916, 41.8854772],
-            [-87.6543755, 41.8854718]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "year": 2017,
         "use": "Resi",
         "project": "943 Crosby",
         "address": "934 N Crosby St",
@@ -5227,7 +5121,7 @@
         "long": -87.6542,
         "submarket": "Fulton Market",
         "developer": "MCZ",
-        "status": "Lease Up",
+        "status": "Stabilized",
         "ext_plan": "Existing",
         "gfa": 75000,
         "off_vac": 0,
@@ -9441,51 +9335,6 @@
         "off_vac": 0,
         "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Pickens+Kane.jpg"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.647472, 41.8891],
-            [-87.647481, 41.889561],
-            [-87.647596, 41.88956],
-            [-87.647706, 41.889557],
-            [-87.647708, 41.889707],
-            [-87.647603, 41.889707],
-            [-87.647482, 41.889709],
-            [-87.647483, 41.889749],
-            [-87.645643, 41.889774],
-            [-87.645639, 41.889579],
-            [-87.645307, 41.889581],
-            [-87.644877, 41.889307],
-            [-87.644896, 41.889269],
-            [-87.644957, 41.889149],
-            [-87.644965, 41.889133],
-            [-87.647472, 41.8891]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "year": 2025,
-        "use": "Resi",
-        "project": "Pickens Kane RW",
-        "address": "410 N Milwaukee Ave",
-        "zip": 60610,
-        "comb_add": "410 N Milwaukee Ave, Chicago, IL 60610",
-        "ward": 42,
-        "lat": 41.889286,
-        "long": -87.646165,
-        "submarket": "River West",
-        "developer": "TBD",
-        "status": "Inactive",
-        "ext_plan": "Planned",
-        "gfa": 765000,
-        "off_vac": 0,
-        "website": "No Site Avail",
-        "aws_image": "No Site Avail"
       },
       "geometry": {
         "type": "Polygon",
