@@ -27,10 +27,10 @@
             Active Markets
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Chicago</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('main.chicago') }}">Chicago</a></li>
             <li><a class="dropdown-item" href="#">Charlotte</a></li>
-            <li><a class="dropdown-item" href="#">Denver</a></li>
-            <li><a class="dropdown-item" href="#">Nashville</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('main.denver_cbd') }}">Denver</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('main.map') }}">Nashville</a></li>
           </ul>
         </li>
       </ul>
