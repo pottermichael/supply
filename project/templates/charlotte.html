@@ -16,8 +16,8 @@
   mapboxgl.accessToken = 'pk.eyJ1IjoibXBvdHRlciIsImEiOiJjajAxZGltM3UwNjF2MzJsczVnN3R2eTNnIn0._Sj0HRLt8VTQGTojMWYFfQ';
   var map = new mapboxgl.Map({
     container: 'map', // container ID
-    style: 'mapbox://styles/mpotter/cjsvs21w60gjk1fmovfg87xhb', // style URL
-    center: [-87.637929, 41.886113], // starting position [lng, lat]
+    style: 'mapbox://styles/mpotter/ckb0u7tty0mxn1impbw3xmu35', // style URL
+    center: [-80.844402, 35.222624], // starting position [lng, lat]
     zoom: 13.5, // starting zoom
     bearing: 0
   });
@@ -54,7 +54,7 @@
       "type": "geojson",
       "data": {
         "type": "Point",
-        "coordinates": [-87.630082, 41.881656]
+        "coordinates": [-80.851514, 35.220001]
       }
     });
     map.addLayer({
@@ -98,8 +98,13 @@
     //var lease = e.features[0].properties.office_prelease.toLocaleString(undefined,{style: 'percent', minimumFractionDigits:1});
     var image = e.features[0].properties.image;
     //var website = e.features[0].properties.website;
-    console.log(project);
     console.log(coordinates);
+    console.log(name);
+    console.log(developer);
+    console.log(year);
+    console.log(address);
+    console.log(gfa);
+    console.log(status);
     console.log("image links?");
     console.log(image);
 
