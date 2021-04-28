@@ -44,6 +44,15 @@ def denver():
     data = json.load(open(json_url))
     return render_template("denver.html",data=data)
 
+
+@main.route('/charlotte', methods=["GET"])
+def charlotte():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "charlotte_clean.geojson")
+    data = json.load(open(json_url))
+    return render_template("charlotte.html",data=data)
+
+
 @main.route('/denver_cbd', methods=["GET"])
 def denver_cbd():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
