@@ -66,16 +66,22 @@ def denver_cbd():
     print(data)
     return render_template("denver_cbd.html",data=data)
 
-def get_isos():
+def get_cta_isos():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "cta_5_min.geojson")
     data = json.load(open(json_url))
     return data
 
+def get_commuter_isos():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_commuter.geojson")
+    data = json.load(open(json_url))
+    return data
+
 @main.route('/chicago', methods=["GET"])
 def chicago():
-    isos = get_isos()
-    print(isos)
+    cta_isos = get_cta_isos()
+    commuter_isos = get_commuter_isos()
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "chicago_supply_final.geojson")
     data = json.load(open(json_url))
@@ -85,7 +91,7 @@ def chicago():
     #print(gdf)
     print(type(data))
     print(data)
-    return render_template("chicago.html",data=data, isos=isos)
+    return render_template("chicago.html",data=data, cta_isos=cta_isos,commuter_isos=commuter_isos)
 
 @main.route('/geo', methods=["GET"])
 def geojson_to_gpd():

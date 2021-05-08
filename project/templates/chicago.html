@@ -55,9 +55,10 @@
 <script src="/static/blipper.js" charset="utf-8"></script>
 <script>
   item = {{ data | safe}};
-  isos = {{ isos | safe}};
-  console.log(typeof(isos));
-  console.log(isos);
+  cta_isos = {{ cta_isos | safe}};
+  commuter_isos = {{ commuter_isos | safe}};
+  console.log(typeof(cta_isos));
+  console.log(cta_isos);
   mapboxgl.accessToken = 'pk.eyJ1IjoibXBvdHRlciIsImEiOiJjajAxZGltM3UwNjF2MzJsczVnN3R2eTNnIn0._Sj0HRLt8VTQGTojMWYFfQ';
   var map = new mapboxgl.Map({
     container: 'map', // container ID
@@ -93,9 +94,10 @@
         'fill-opacity': 0.6
       }
     });
+    //add layers for CTA
     map.addSource('cta', {
       'type': 'geojson',
-      'data': isos
+      'data': cta_isos
     });
     map.addLayer({
       'id': 'cta',
@@ -124,6 +126,23 @@
         'fill-opacity': 0.33
       }
     });
+    //commuter isos
+    map.addSource('commuter', {
+      'type': 'geojson',
+      'data': commuter_isos
+    });
+    map.addLayer({
+      'id': 'commuter',
+      'type': 'fill',
+      'source': 'commuter',
+      'layout': {},
+      'paint': {
+        'fill-color': '#ebfb6f',
+        'fill-opacity': 0.33
+      }
+    });
+
+
     //add layers for blip
     map.addSource('point', {
       "type": "geojson",
@@ -243,9 +262,9 @@
   map.on('load', function() {
     // If these two layers have been added to the style,
     // add the toggle buttons.
-    if (map.getLayer('cta') && map.getLayer('footprints')) {
+    if (map.getLayer('cta') && map.getLayer('commuter') && map.getLayer('footprints')) {
       // Enumerate ids of the layers.
-      var toggleableLayerIds = ['cta','footprints'];
+      var toggleableLayerIds = ['cta','commuter','footprints'];
       // Set up the corresponding toggle button for each layer.
       for (var i = 0; i < toggleableLayerIds.length; i++) {
         var id = toggleableLayerIds[i];
