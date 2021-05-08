@@ -94,6 +94,16 @@
         'fill-opacity': 0.6
       }
     });
+  //how to add layer for labels
+    map.addLayer({
+      'id': 'proj_labels',
+      'type': 'symbol',
+      'source': 'footprints',
+      'layout': {},
+      'paint': {
+        'line-color': '#7AD7F0'
+      }
+    });
     //add layers for CTA
     map.addSource('cta', {
       'type': 'geojson',
@@ -138,7 +148,8 @@
       'layout': {},
       'paint': {
         'fill-color': '#ebfb6f',
-        'fill-opacity': 0.33
+        'fill-opacity': 0.33,
+        'fill-outline-color': '#000000'
       }
     });
 
