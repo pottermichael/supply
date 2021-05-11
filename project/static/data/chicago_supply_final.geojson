@@ -1313,7 +1313,7 @@
         "gfa": 473000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Grand+Plaza.jpg"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Grand+Plaza.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -2304,7 +2304,7 @@
         "gfa": 387000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/215+West.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -2571,57 +2571,38 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-87.6387813, 41.8905006],
-            [-87.6387151, 41.8904966],
-            [-87.638538, 41.8904966],
-            [-87.6383093, 41.890205],
-            [-87.6382932, 41.8901731],
-            [-87.6382932, 41.8901531],
-            [-87.6383039, 41.8901225],
-            [-87.6383342, 41.8901092],
-            [-87.638379, 41.8901132],
-            [-87.6384165, 41.8901225],
-            [-87.6385667, 41.8901172],
-            [-87.6388081, 41.8904327],
-            [-87.6388028, 41.8904766],
-            [-87.6387813, 41.8905006]
-          ]
+            [
+          -87.639021,
+          41.890615
+        ],
+        [
+          -87.63794,
+          41.890628
+        ],
+        [
+          -87.637938,
+          41.89054
+        ],
+        [
+          -87.637934,
+          41.890392
+        ],
+        [
+          -87.637926,
+          41.890062
+        ],
+        [
+          -87.637925,
+          41.890029
+        ],
+        [
+          -87.63854,
+          41.890018
+        ],
+        [
+          -87.639021,
+          41.890615
         ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "year": 2013,
-        "use": "Resi",
-        "project": "Hubbard Place",
-        "address": "360 W Hubbard St",
-        "zip": 60654,
-        "comb_add": "360 W Hubbard St, 60654, Chicago, Illinois",
-        "ward": 42,
-        "lat": 41.8904,
-        "long": -87.6385,
-        "submarket": "River North",
-        "developer": "Habitat",
-        "status": "Stabilized",
-        "ext_plan": "Existing",
-        "gfa": 440000,
-        "off_vac": 0,
-        "website": "No Site Avail",
-        "aws_image": "No Site Avail"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.6390212, 41.8906152],
-            [-87.6379406, 41.8906281],
-            [-87.6379384, 41.8905406],
-            [-87.6379346, 41.8903921],
-            [-87.6379263, 41.8900624],
-            [-87.6379254, 41.8900296],
-            [-87.6385402, 41.8900185],
-            [-87.6390212, 41.8906152]
           ]
         ]
       }
@@ -2645,42 +2626,7 @@
         "gfa": 409000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/AMLI.jpg"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.630924, 41.8899284],
-            [-87.6304815, 41.8899333],
-            [-87.630476, 41.8896548],
-            [-87.6304751, 41.8896087],
-            [-87.6309175, 41.8896038],
-            [-87.630924, 41.8899284]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "year": 2013,
-        "use": "Resi",
-        "project": "AMLI",
-        "address": "71 W Hubbard St",
-        "zip": 60654,
-        "comb_add": "71 W Hubbard St, 60654, Chicago, Illinois",
-        "ward": 42,
-        "lat": 41.8897,
-        "long": -87.6307,
-        "submarket": "River North",
-        "developer": "AMLI",
-        "status": "Stabilized",
-        "ext_plan": "Existing",
-        "gfa": 409000,
-        "off_vac": 0,
-        "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Amli+Hubbard.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -2948,7 +2894,7 @@
         "gfa": 531190,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Google+1K.jpg"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Google.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -3278,7 +3224,7 @@
         "gfa": 167000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Gateway.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -3607,7 +3553,7 @@
         "gfa": 402000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/MILA.jpeg.crdownload"
       },
       "geometry": {
         "type": "Polygon",
@@ -3717,7 +3663,7 @@
         "gfa": 227000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Kenect.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -4392,7 +4338,7 @@
         "gfa": 49000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/847+Larrabee.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -4494,7 +4440,7 @@
         "gfa": 820000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/151+Franklin.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -4569,7 +4515,7 @@
         "gfa": 452000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Cooper.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -4795,7 +4741,7 @@
         "gfa": 300000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1407+Michigan.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -4829,7 +4775,7 @@
         "gfa": 245000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/3Eleven.jpg"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/311+Illinois.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -5363,7 +5309,7 @@
         "gfa": 2500000,
         "off_vac": 500000,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Post+Office.JPG"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Post+Office.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -5563,7 +5509,7 @@
         "gfa": 358000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Union+West.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -6038,7 +5984,7 @@
         "gfa": 77100,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Mondelez.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -6175,7 +6121,7 @@
         "gfa": 62000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Bentham.png"
       },
       "geometry": {
         "type": "Polygon",
@@ -6243,7 +6189,7 @@
         "gfa": 1300000,
         "off_vac": 260000,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/110+Wacker.jpeg.crdownload"
       },
       "geometry": {
         "type": "Polygon",
@@ -6739,7 +6685,7 @@
         "gfa": 42000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Hayden.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -6773,7 +6719,7 @@
         "gfa": 812000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Wanda.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -6903,7 +6849,7 @@
         "gfa": 373000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/352+Union.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -6937,7 +6883,7 @@
         "gfa": 314000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Bridgford.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -7045,7 +6991,7 @@
         "gfa": 180000,
         "off_vac": 90000,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/English.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -7931,7 +7877,7 @@
         "gfa": 62000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Carsons.png"
       },
       "geometry": {
         "type": "Polygon",
@@ -8099,7 +8045,7 @@
         "gfa": 550000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Fitzgerald.png"
       },
       "geometry": {
         "type": "Polygon",
@@ -8226,7 +8172,7 @@
         "gfa": 501390,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Coyne+-+North.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -8620,7 +8566,7 @@
         "gfa": 202500,
         "off_vac": 0,
         "website": "http://lgdevelopmentgroup.com/1143-w-lake/",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1150+Lake.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -8654,7 +8600,7 @@
         "gfa": 1300000,
         "off_vac": 650000,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Salesforce.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -8946,7 +8892,7 @@
         "lat": 41.8784,
         "long": -87.6363,
         "submarket": "West Loop",
-        "developer": "John Murphy",
+        "developer": "Kostelny",
         "status": "PreDev",
         "ext_plan": "Planned",
         "gfa": 1295000,
@@ -9095,7 +9041,7 @@
         "gfa": 1200000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/130+N+Fraklin.png"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/130+Franklin.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -9165,7 +9111,7 @@
         "gfa": 765000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Pickens+Kane.jpg"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/410+N+Milwaukee.png"
       },
       "geometry": {
         "type": "Polygon",
@@ -9278,7 +9224,7 @@
         "gfa": 600000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Fire+Station.jpeg"
       },
       "geometry": {
         "type": "Polygon",
@@ -9310,13 +9256,13 @@
         "lat": 41.8868,
         "long": -87.6575,
         "submarket": "Fulton Market",
-        "developer": "Ryan Cos",
+        "developer": "Fulton Street Cos",
         "status": "Zoning",
         "ext_plan": "Planned",
         "gfa": 600000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/1200+Fulton.png"
       },
       "geometry": {
         "type": "Polygon",
@@ -9424,150 +9370,40 @@
         "gfa": 500000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "No Site Avail"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/SalvationArmy.png"
       },
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Polygon",
         "coordinates": [
           [
             [
-              [-87.645227, 41.892008],
-              [-87.645519, 41.892004],
-              [-87.645525, 41.892197],
-              [-87.645231, 41.8922],
-              [-87.645227, 41.892008]
-            ]
-          ],
-          [
-            [
-              [-87.645519, 41.892004],
-              [-87.645593, 41.892003],
-              [-87.645597, 41.892196],
-              [-87.645525, 41.892197],
-              [-87.645519, 41.892004]
-            ]
-          ],
-          [
-            [
-              [-87.645593, 41.892003],
-              [-87.645698, 41.892001],
-              [-87.645703, 41.892195],
-              [-87.645597, 41.892196],
-              [-87.645593, 41.892003]
-            ]
-          ],
-          [
-            [
-              [-87.645227, 41.892008],
-              [-87.645231, 41.8922],
-              [-87.645156, 41.892201],
-              [-87.645151, 41.892009],
-              [-87.645227, 41.892008]
-            ]
-          ],
-          [
-            [
-              [-87.645042, 41.891898],
-              [-87.645047, 41.892041],
-              [-87.644777, 41.892046],
-              [-87.644773, 41.891904],
-              [-87.645042, 41.891898]
-            ]
-          ],
-          [
-            [
-              [-87.645066, 41.891331],
-              [-87.645071, 41.891521],
-              [-87.645, 41.891522],
-              [-87.644994, 41.891332],
-              [-87.645066, 41.891331]
-            ]
-          ],
-          [
-            [
-              [-87.64536, 41.891427],
-              [-87.645406, 41.891428],
-              [-87.645493, 41.891379],
-              [-87.645437, 41.891324],
-              [-87.645371, 41.891323],
-              [-87.645372, 41.891385],
-              [-87.645359, 41.891391],
-              [-87.64536, 41.891427]
-            ]
-          ],
-          [
-            [
-              [-87.645296, 41.891325],
-              [-87.645371, 41.891323],
-              [-87.645372, 41.891385],
-              [-87.645359, 41.891391],
-              [-87.64536, 41.891427],
-              [-87.64536, 41.89145],
-              [-87.645371, 41.891456],
-              [-87.645373, 41.891515],
-              [-87.645303, 41.891516],
-              [-87.645296, 41.891325]
-            ]
-          ],
-          [
-            [
-              [-87.644765, 41.891348],
-              [-87.644765, 41.891499],
-              [-87.644758, 41.891499],
-              [-87.644757, 41.891696],
-              [-87.644752, 41.891696],
-              [-87.644753, 41.891898],
-              [-87.644537, 41.891898],
-              [-87.644535, 41.891745],
-              [-87.644542, 41.891745],
-              [-87.64454, 41.891598],
-              [-87.644518, 41.891598],
-              [-87.644518, 41.891556],
-              [-87.644548, 41.891557],
-              [-87.644546, 41.891348],
-              [-87.644765, 41.891348]
-            ]
-          ],
-          [
-            [
-              [-87.644977, 41.891425],
-              [-87.644977, 41.891624],
-              [-87.644784, 41.891624],
-              [-87.644782, 41.891425],
-              [-87.644977, 41.891425]
-            ]
-          ],
-          [
-            [
-              [-87.645161, 41.891876],
-              [-87.645692, 41.891867],
-              [-87.645693, 41.891979],
-              [-87.645162, 41.891982],
-              [-87.645161, 41.891876]
-            ]
-          ],
-          [
-            [
-              [-87.645692, 41.891867],
-              [-87.645161, 41.891876],
-              [-87.645141, 41.891876],
-              [-87.645141, 41.891737],
-              [-87.645157, 41.891737],
-              [-87.645156, 41.891682],
-              [-87.645138, 41.891682],
-              [-87.645137, 41.891545],
-              [-87.64569, 41.891543],
-              [-87.645692, 41.891867]
-            ]
-          ],
-          [
-            [
-              [-87.645296, 41.891325],
-              [-87.645303, 41.891516],
-              [-87.645145, 41.891519],
-              [-87.645138, 41.891328],
-              [-87.645296, 41.891325]
-            ]
+          -87.64569408395111,
+          41.891544389349434
+        ],
+        [
+          -87.64569945466752,
+          41.89219606258388
+        ],
+        [
+          -87.6445232677203,
+          41.89220805650743
+        ],
+        [
+          -87.64451252628676,
+          41.891320500077796
+        ],
+        [
+          -87.64497977863596,
+          41.89131650204766
+        ],
+        [
+          -87.64497977863596,
+          41.89154039133328
+        ],
+        [
+          -87.64569408395111,
+          41.891544389349434
+        ]
           ]
         ]
       }
@@ -9972,142 +9808,41 @@
         "aws_image": "No Site Avail"
       },
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Polygon",
         "coordinates": [
           [
             [
-              [-87.655899, 41.904233],
-              [-87.655123, 41.904591],
-              [-87.654623, 41.90398],
-              [-87.655386, 41.903622],
-              [-87.655899, 41.904233]
-            ]
-          ],
-          [
-            [
-              [-87.654609, 41.886066],
-              [-87.655072, 41.886058],
-              [-87.655073, 41.886194],
-              [-87.654613, 41.886201],
-              [-87.654609, 41.886066]
-            ]
-          ],
-          [
-            [
-              [-87.655151, 41.885645],
-              [-87.655526, 41.885639],
-              [-87.655537, 41.885977],
-              [-87.655069, 41.885985],
-              [-87.655067, 41.885924],
-              [-87.655067, 41.885917],
-              [-87.65516, 41.885916],
-              [-87.655151, 41.885645]
-            ]
-          ],
-          [
-            [
-              [-87.655071, 41.886055],
-              [-87.655541, 41.886048],
-              [-87.655545, 41.886186],
-              [-87.655073, 41.886194],
-              [-87.655071, 41.886055]
-            ]
-          ],
-          [
-            [
-              [-87.65518, 41.886586],
-              [-87.655174, 41.886312],
-              [-87.655552, 41.886307],
-              [-87.655559, 41.886581],
-              [-87.65518, 41.886586]
-            ]
-          ],
-          [
-            [
-              [-87.654764, 41.886315],
-              [-87.654772, 41.886595],
-              [-87.654627, 41.886597],
-              [-87.654617, 41.886317],
-              [-87.654764, 41.886315]
-            ]
-          ],
-          [
-            [
-              [-87.654764, 41.886315],
-              [-87.654912, 41.886314],
-              [-87.654921, 41.886592],
-              [-87.654772, 41.886595],
-              [-87.654764, 41.886315]
-            ]
-          ],
-          [
-            [
-              [-87.655072, 41.886058],
-              [-87.654609, 41.886066],
-              [-87.654606, 41.885983],
-              [-87.654799, 41.88598],
-              [-87.654796, 41.88589],
-              [-87.654855, 41.885889],
-              [-87.654856, 41.885928],
-              [-87.655067, 41.885924],
-              [-87.655072, 41.886058]
-            ]
-          ],
-          [
-            [
-              [-87.655023, 41.886312],
-              [-87.655174, 41.886312],
-              [-87.65518, 41.886586],
-              [-87.655033, 41.88659],
-              [-87.655023, 41.886312]
-            ]
-          ],
-          [
-            [
-              [-87.654944, 41.886196],
-              [-87.654946, 41.886313],
-              [-87.654617, 41.886317],
-              [-87.654613, 41.886201],
-              [-87.654944, 41.886196]
-            ]
-          ],
-          [
-            [
-              [-87.654944, 41.886196],
-              [-87.655545, 41.886186],
-              [-87.655552, 41.886307],
-              [-87.654946, 41.886313],
-              [-87.654944, 41.886196]
-            ]
-          ],
-          [
-            [
-              [-87.654912, 41.886314],
-              [-87.655023, 41.886312],
-              [-87.655033, 41.88659],
-              [-87.654921, 41.886592],
-              [-87.654912, 41.886314]
-            ]
-          ],
-          [
-            [
-              [-87.655069, 41.885985],
-              [-87.655537, 41.885977],
-              [-87.655541, 41.886048],
-              [-87.655071, 41.886055],
-              [-87.655069, 41.885985]
-            ]
-          ],
-          [
-            [
-              [-87.655151, 41.885645],
-              [-87.65516, 41.885916],
-              [-87.655067, 41.885917],
-              [-87.655067, 41.885907],
-              [-87.654977, 41.885909],
-              [-87.654969, 41.885649],
-              [-87.655151, 41.885645]
-            ]
+          -87.65552388785032,
+          41.885643472916854
+        ],
+        [
+          -87.65555728643231,
+          41.88658121432613
+        ],
+        [
+          -87.65461735491951,
+          41.88659897444737
+        ],
+        [
+          -87.65460781246743,
+          41.88599157550067
+        ],
+        [
+          -87.65477003414978,
+          41.88598447138557
+        ],
+        [
+          -87.6549751968662,
+          41.88597736726928
+        ],
+        [
+          -87.65496565441416,
+          41.88564702499346
+        ],
+        [
+          -87.65552388785032,
+          41.885643472916854
+        ]
           ]
         ]
       }
@@ -10868,6 +10603,55 @@
         [
           -87.65322766771001,
           41.88517019326363
+        ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "year": 2025,
+        "use": "Office",
+        "project": "Enwave",
+        "address": "300 W Van Buren St",
+        "zip": 60607,
+        "comb_add": "300 W Van Buren St, 60606, Chicago, Illinois",
+        "ward": 42,
+        "lat": 41.884963,
+        "long": -87.652722,
+        "submarket": "West Loop",
+        "developer": "Hines",
+        "status": "PreDev",
+        "ext_plan": "Planned",
+        "gfa": 1000000,
+        "off_vac": 0,
+        "website": "No Site Avail",
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/enwave.jpeg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+          -87.63621925992138,
+          41.87638578643268
+        ],
+        [
+          -87.6364428078711,
+          41.876742255371596
+        ],
+        [
+          -87.63529737191499,
+          41.876755512442514
+        ],
+        [
+          -87.63528748041296,
+          41.87639462452955
+        ],
+        [
+          -87.63621925992138,
+          41.87638578643268
         ]
           ]
         ]
