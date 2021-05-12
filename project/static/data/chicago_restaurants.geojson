@@ -1,0 +1,1280 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mana Food Bar",
+        "Address": "1742 W Division Street, Chicago, IL, 60622",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.671697,
+          41.903561
+        ],
+        "type": "Point"
+      },
+      "id": "018a488cac1772e273fb73fabe29d1dc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Blackbird",
+        "Address": "619 W. Randolph, Chicago, IL, 60661",
+        "Type": "Michelin",
+        "Zip": 60661
+      },
+      "geometry": {
+        "coordinates": [
+          -87.643554,
+          41.884226
+        ],
+        "type": "Point"
+      },
+      "id": "03ef8b66c80a5a329e4996ef55292b83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Frontera Grill",
+        "Address": "445 North Clark Street, Chicago, IL, 60654",
+        "Type": "Bib Gourmond",
+        "Zip": 60654
+      },
+      "geometry": {
+        "coordinates": [
+          -87.630769,
+          41.890566
+        ],
+        "type": "Point"
+      },
+      "id": "0419a48e557a41b90c4cc3e7568dc859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Passerotto",
+        "Address": "5420 N. Clark Street, Chicago, IL, 60640",
+        "Type": "Bib Gourmond",
+        "Zip": 60640
+      },
+      "geometry": {
+        "coordinates": [
+          -87.668685,
+          41.980483
+        ],
+        "type": "Point"
+      },
+      "id": "06b9b2ff401a3b577f5339e1e5cf10b1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lonesome Rose",
+        "Address": "2101 North California Avenue, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.697074,
+          41.919618
+        ],
+        "type": "Point"
+      },
+      "id": "09c7c4ef208ec17583a04d52a67b8e9d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Marisol",
+        "Address": "205 East Pearson Street, Chicago, IL, 60611",
+        "Type": "Bib Gourmond",
+        "Zip": 60611
+      },
+      "geometry": {
+        "coordinates": [
+          -87.621732,
+          41.897467
+        ],
+        "type": "Point"
+      },
+      "id": "0dec6b2b2d71c8984df941977a71377c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Smyth",
+        "Address": "177 N Ada St, Chicago, IL, 60607",
+        "Type": "Michelin",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.660602,
+          41.884953
+        ],
+        "type": "Point"
+      },
+      "id": "125c68aa03344cf4d5d027fadf65963c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Proxi",
+        "Address": "565 West Randolph Street, Chicago, IL, 60661",
+        "Type": "Bib Gourmond",
+        "Zip": 60661
+      },
+      "geometry": {
+        "coordinates": [
+          -87.641818,
+          41.884284
+        ],
+        "type": "Point"
+      },
+      "id": "1b328f11161b40e4600531f2fe484181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mango Pickle",
+        "Address": "5842 North Broadway Street, Chicago, IL, 60660",
+        "Type": "Bib Gourmond",
+        "Zip": 60660
+      },
+      "geometry": {
+        "coordinates": [
+          -87.660636,
+          41.988309
+        ],
+        "type": "Point"
+      },
+      "id": "1d93b093c739ab0d39883248cd015d10"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HaiSous",
+        "Address": "1800 S. Carpenter St., Chicago, IL, 60608",
+        "Type": "Bib Gourmond",
+        "Zip": 60608
+      },
+      "geometry": {
+        "coordinates": [
+          -87.653522,
+          41.857876
+        ],
+        "type": "Point"
+      },
+      "id": "1edd6af6a33c9fac6aa35cade4940f8c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Two",
+        "Address": "1132 W Grand Ave, Chicago, IL, 60642",
+        "Type": "Bib Gourmond",
+        "Zip": 60642
+      },
+      "geometry": {
+        "coordinates": [
+          -87.655956,
+          41.89128
+        ],
+        "type": "Point"
+      },
+      "id": "22366917ae331189fdff154dc6f8f4ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Chilam Balam",
+        "Address": "3023 North Broadway Street, Chicago, IL, 60657",
+        "Type": "Bib Gourmond",
+        "Zip": 60657
+      },
+      "geometry": {
+        "coordinates": [
+          -87.644004,
+          41.937242
+        ],
+        "type": "Point"
+      },
+      "id": "22f5e7b7c8b5cb410104f4197e10ed00"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mott St",
+        "Address": "1401 North Ashland Avenue, Chicago, IL, 60622",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.667222,
+          41.907161
+        ],
+        "type": "Point"
+      },
+      "id": "25a38929313161c76c1aa3422f8d8a8f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Duck Inn",
+        "Address": "2701 South Eleanor Street, Chicago, IL, 60608",
+        "Type": "Bib Gourmond",
+        "Zip": 60608
+      },
+      "geometry": {
+        "coordinates": [
+          -87.660081,
+          41.84434
+        ],
+        "type": "Point"
+      },
+      "id": "2954693a3e39aaaf7d69376f1ccf5e8f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Temporis",
+        "Address": "933 N Ashland Ave, Chicago, IL, 60622",
+        "Type": "Michelin",
+        "Zip": 60642
+      },
+      "geometry": {
+        "coordinates": [
+          -87.66703,
+          41.898912
+        ],
+        "type": "Point"
+      },
+      "id": "2d99b748d7c292dbc6b4abea340a3a21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Girl & the Goat",
+        "Address": "809 W Randolph St, Chicago, IL, 60607",
+        "Type": "Bib Gourmond",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.647884,
+          41.884102
+        ],
+        "type": "Point"
+      },
+      "id": "30fbf27060876101b55c0cdd0b7100a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cabra",
+        "Address": "200 North Green Street, Chicago, IL, 60607",
+        "Type": "Bib Gourmond",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.64864,
+          41.885794
+        ],
+        "type": "Point"
+      },
+      "id": "366762f6d1753757d2d26ecc9f09c7a7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Jam",
+        "Address": "2853 North Kedzie Avenue, Chicago, IL, 60618",
+        "Type": "Bib Gourmond",
+        "Zip": 60618
+      },
+      "geometry": {
+        "coordinates": [
+          -87.707124,
+          41.933605
+        ],
+        "type": "Point"
+      },
+      "id": "3830cd8bd3a1be55f2f8964bb6414bd3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Oriole",
+        "Address": "661 W Walnut St, Chicago, IL, 60661",
+        "Type": "Michelin",
+        "Zip": 60606
+      },
+      "geometry": {
+        "coordinates": [
+          -87.644883,
+          41.886094
+        ],
+        "type": "Point"
+      },
+      "id": "3868ba42b4bea2ba17d4738fa14ab5df"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lula Cafe",
+        "Address": "2537 North Kedzie Avenue, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.706839,
+          41.92658
+        ],
+        "type": "Point"
+      },
+      "id": "398c8ab373425aec1b70078e80d44eef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Untitled",
+        "Address": "111 West Kinzie Street, Chicago, IL, 60654",
+        "Type": "Bib Gourmond",
+        "Zip": 60654
+      },
+      "geometry": {
+        "coordinates": [
+          -87.631434,
+          41.889055
+        ],
+        "type": "Point"
+      },
+      "id": "39ea1a49d8d833e638de2803f8a01589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fat Rice",
+        "Address": "2957 West Diversey Avenue, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.701973,
+          41.931915
+        ],
+        "type": "Point"
+      },
+      "id": "3c0075ea757e60763185cce715c0a085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Goosefoot",
+        "Address": "2656 W Lawrence Ave, Chicago, IL, 60625",
+        "Type": "Michelin",
+        "Zip": 60625
+      },
+      "geometry": {
+        "coordinates": [
+          -87.695432,
+          41.968706
+        ],
+        "type": "Point"
+      },
+      "id": "43cecface09f9b5cf6504aefda83a444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hopleaf",
+        "Address": "5148 North Clark Street, Chicago, IL, 60640",
+        "Type": "Bib Gourmond",
+        "Zip": 60640
+      },
+      "geometry": {
+        "coordinates": [
+          -87.668755,
+          41.975827
+        ],
+        "type": "Point"
+      },
+      "id": "4961339f6377c6c94b7bb72019d85013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "San Soo Gab San",
+        "Address": "5247 North Western Avenue, Chicago, IL, 60625",
+        "Type": "Bib Gourmond",
+        "Zip": 60625
+      },
+      "geometry": {
+        "coordinates": [
+          -87.688904,
+          41.977332
+        ],
+        "type": "Point"
+      },
+      "id": "49c3d7760f255bd86b4908f1985a0756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Band of Bohemia",
+        "Address": "4710 N Ravenswood Ave, Chicago, IL, 60640",
+        "Type": "Michelin",
+        "Zip": 60640
+      },
+      "geometry": {
+        "coordinates": [
+          -87.675118,
+          41.967617
+        ],
+        "type": "Point"
+      },
+      "id": "513b1ac470903b74724074495ff1a50b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Roister",
+        "Address": "951 W Fulton Market, Chicago, IL, 60607",
+        "Type": "Michelin",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.651319,
+          41.886599
+        ],
+        "type": "Point"
+      },
+      "id": "5858b51a04ee98c56910b06005ff13a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Funkenhausen",
+        "Address": "1709 West Chicago Avenue, Chicago, IL, 60622",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.670234,
+          41.895754
+        ],
+        "type": "Point"
+      },
+      "id": "59e69ac01041aae7db893b29b38592a3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Elske",
+        "Address": "1350 W Randolph St, Chicago, IL, 60607",
+        "Type": "Michelin",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.660933,
+          41.884476
+        ],
+        "type": "Point"
+      },
+      "id": "5a2f3fa7954a5d62c3a95c8e1a9d868d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sol De Mexico",
+        "Address": "3018 N Cicero Avenue, Chicago, IL, 60641",
+        "Type": "Bib Gourmond",
+        "Zip": 60641
+      },
+      "geometry": {
+        "coordinates": [
+          -87.747187,
+          41.935884
+        ],
+        "type": "Point"
+      },
+      "id": "5c9cf39863b2de371c93751b6b845ab4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Schwa",
+        "Address": "1466 N Ashland Ave, Chicago, IL, 60622",
+        "Type": "Michelin",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.667987,
+          41.908938
+        ],
+        "type": "Point"
+      },
+      "id": "6039a6ed4511b695e33a5918c680fc6b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Arami",
+        "Address": "1829 West Chicago Avenue, Chicago, IL, 60622",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.673346,
+          41.895699
+        ],
+        "type": "Point"
+      },
+      "id": "60412c0a05400af931a2d2678b46fee9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pleasant House Pub",
+        "Address": "2119 South Halsted Street, Chicago, IL, 60608",
+        "Type": "Bib Gourmond",
+        "Zip": 60608
+      },
+      "geometry": {
+        "coordinates": [
+          -87.64621,
+          41.85358
+        ],
+        "type": "Point"
+      },
+      "id": "60a76c0f4c5ee8a517b0e2c52cbdc6f8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cira",
+        "Address": "200 North Green Street, Chicago, IL, 60607",
+        "Type": "Bib Gourmond",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.64864,
+          41.885794
+        ],
+        "type": "Point"
+      },
+      "id": "623167304e9a974dcacac1c0b2c7469a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Spiaggia",
+        "Address": "980 N Michigan Ave, Chicago, IL, 60611",
+        "Type": "Michelin",
+        "Zip": 60611
+      },
+      "geometry": {
+        "coordinates": [
+          -87.624728,
+          41.900576
+        ],
+        "type": "Point"
+      },
+      "id": "69e006918a3e9f3d207840fdfcf3efee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "GT Fish & Oyster",
+        "Address": "531 North Wells Street, Chicago, IL, 60654",
+        "Type": "Bib Gourmond",
+        "Zip": 60654
+      },
+      "geometry": {
+        "coordinates": [
+          -87.633798,
+          41.891758
+        ],
+        "type": "Point"
+      },
+      "id": "6cbd1b228c349027cabaed3421eacbf4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Au Cheval",
+        "Address": "800 West Randolph Street, Chicago,  IL, 60607",
+        "Type": "Bib Gourmond",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.647751,
+          41.884703
+        ],
+        "type": "Point"
+      },
+      "id": "752ef9a1af29b65da58522c37c0fc85a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "etta",
+        "Address": "1840 West North Avenue, Chicago, IL, 60622",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.674288,
+          41.91081
+        ],
+        "type": "Point"
+      },
+      "id": "7555e454ba3c58912faec195906cc7f3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pacific Standard Time",
+        "Address": "141 West Erie Street, Chicago, IL, 60654",
+        "Type": "Bib Gourmond",
+        "Zip": 60654
+      },
+      "geometry": {
+        "coordinates": [
+          -87.632758,
+          41.894159
+        ],
+        "type": "Point"
+      },
+      "id": "799636cc3ada3f058f3162edeffdc90a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Avec",
+        "Address": "615 W Randolph St, Chicago, IL, 60661",
+        "Type": "Bib Gourmond",
+        "Zip": 60661
+      },
+      "geometry": {
+        "coordinates": [
+          -87.643402,
+          41.884227
+        ],
+        "type": "Point"
+      },
+      "id": "79cd238198820aeb77ef9cceffd96e35"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Acadia",
+        "Address": "1639 S Wabash Ave, Chicago, IL, 60616",
+        "Type": "Michelin",
+        "Zip": 60616
+      },
+      "geometry": {
+        "coordinates": [
+          -87.625204,
+          41.859052
+        ],
+        "type": "Point"
+      },
+      "id": "830089afef564446e636bd234512c3f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dusek's Board & Beer",
+        "Address": "1227 W 18th St, Chicago, IL, 60608",
+        "Type": "Michelin",
+        "Zip": 60608
+      },
+      "geometry": {
+        "coordinates": [
+          -87.65752,
+          41.857785
+        ],
+        "type": "Point"
+      },
+      "id": "87c815df3deb90437b14b8c76c59d386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Entente",
+        "Address": "700 N Sedgwick St , Chicago, IL, 60654",
+        "Type": "Michelin",
+        "Zip": 60654
+      },
+      "geometry": {
+        "coordinates": [
+          -87.63894,
+          41.895733
+        ],
+        "type": "Point"
+      },
+      "id": "8984a46ae88b7da29f87c10bb5c9dc78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Boka",
+        "Address": "1729 N Halsted St, Chicago, IL, 60614",
+        "Type": "Michelin",
+        "Zip": 60614
+      },
+      "geometry": {
+        "coordinates": [
+          -87.647989,
+          41.91365
+        ],
+        "type": "Point"
+      },
+      "id": "89bf075b50451bfc71fe3a2a7f13317d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Birrieria Zaragoza",
+        "Address": "4852 South Pulaski Road, Chicago, IL, 60632",
+        "Type": "Bib Gourmond",
+        "Zip": 60632
+      },
+      "geometry": {
+        "coordinates": [
+          -87.723766,
+          41.804472
+        ],
+        "type": "Point"
+      },
+      "id": "8b40cb18ed6f5e9d93beded6998865f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Purple Pig",
+        "Address": "444 Michigan Avenue, Chicago, IL, 60611",
+        "Type": "Bib Gourmond",
+        "Zip": 60611
+      },
+      "geometry": {
+        "coordinates": [
+          -87.624708,
+          41.890695
+        ],
+        "type": "Point"
+      },
+      "id": "8c8361bee93766ed9fbf17c6f7df136e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Everest",
+        "Address": "440 South LaSalle St, Chicago, IL, 60605",
+        "Type": "Michelin",
+        "Zip": 60605
+      },
+      "geometry": {
+        "coordinates": [
+          -87.632188,
+          41.875952
+        ],
+        "type": "Point"
+      },
+      "id": "8d915c73d2754af91d7dfd039a8e3443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Virtue",
+        "Address": "1462 E. 53rd Street, Chicago, IL, 60615",
+        "Type": "Bib Gourmond",
+        "Zip": 60615
+      },
+      "geometry": {
+        "coordinates": [
+          -87.589406,
+          41.799698
+        ],
+        "type": "Point"
+      },
+      "id": "90083c8cb5633f90da52ff940d7bbf94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Daguan Noodle",
+        "Address": "2230 South Wentworth Avenue, Chicago, IL, 60616",
+        "Type": "Bib Gourmond",
+        "Zip": 60616
+      },
+      "geometry": {
+        "coordinates": [
+          -87.632292,
+          41.851948
+        ],
+        "type": "Point"
+      },
+      "id": "9177f099f4c866f9facdc1ccebcef292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Topolobampo",
+        "Address": "445 N Clark St, Chicago, IL, 60610",
+        "Type": "Michelin",
+        "Zip": 60654
+      },
+      "geometry": {
+        "coordinates": [
+          -87.630769,
+          41.890566
+        ],
+        "type": "Point"
+      },
+      "id": "989d888101f8729fee6c37f90f01822c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "North Pond",
+        "Address": "2610 N Cannon Dr, Chicago, IL, 60614",
+        "Type": "Michelin",
+        "Zip": 60614
+      },
+      "geometry": {
+        "coordinates": [
+          -87.636709,
+          41.929331
+        ],
+        "type": "Point"
+      },
+      "id": "9d9606769fac00ded0b2c7411f794642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dos Urban Cantina",
+        "Address": "2829 West Armitage Avenue, Chicago,  IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.698442,
+          41.917251
+        ],
+        "type": "Point"
+      },
+      "id": "9dd3c9afa598e3b7de851d46867721c5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Table, Donkey and Stick",
+        "Address": "2728 W Armitage Ave, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.695998,
+          41.917748
+        ],
+        "type": "Point"
+      },
+      "id": "a31c578f2c2b42b650d8372d2b1345b8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Flat & Point",
+        "Address": "3524 West Fullerton Avenue, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.715548,
+          41.924769
+        ],
+        "type": "Point"
+      },
+      "id": "a3e6bd8c7d5eca2c65cf52b9f4c748ce"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Smoque BBQ",
+        "Address": "3800 North Pulaski Road, Chicago, IL, 60641",
+        "Type": "Bib Gourmond",
+        "Zip": 60641
+      },
+      "geometry": {
+        "coordinates": [
+          -87.727961,
+          41.950227
+        ],
+        "type": "Point"
+      },
+      "id": "a514bba7b56348575e94753018854e7e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Herb",
+        "Address": "5424 North Broadway Street, Chicago, IL, 60640",
+        "Type": "Bib Gourmond",
+        "Zip": 60640
+      },
+      "geometry": {
+        "coordinates": [
+          -87.660409,
+          41.980738
+        ],
+        "type": "Point"
+      },
+      "id": "a9a678744f36f0a7c736722adb75a31b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Parachute",
+        "Address": "3500 N Elston Ave, Chicago, IL, 60618",
+        "Type": "Michelin",
+        "Zip": 60618
+      },
+      "geometry": {
+        "coordinates": [
+          -87.706539,
+          41.944706
+        ],
+        "type": "Point"
+      },
+      "id": "a9c5d6cddf87688d7fa2c344bea63d75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Giant",
+        "Address": "3209 West Armitage Avenue, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.70748,
+          41.917106
+        ],
+        "type": "Point"
+      },
+      "id": "afc0f6823eef7ea67a987f2e2391a4b9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alinea",
+        "Address": "1723 N Halsted St, Chicago, IL, 60614",
+        "Type": "Michelin",
+        "Zip": 60614
+      },
+      "geometry": {
+        "coordinates": [
+          -87.647982,
+          41.913453
+        ],
+        "type": "Point"
+      },
+      "id": "b0b64b95ef86cabc32be694afa403374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Nella Pizza e Pasta",
+        "Address": "1125 East 55th Street, Chicago, IL, 60615",
+        "Type": "Bib Gourmond",
+        "Zip": 60615
+      },
+      "geometry": {
+        "coordinates": [
+          -87.598795,
+          41.794894
+        ],
+        "type": "Point"
+      },
+      "id": "b62a555801cc34e51ba688a9a551c08f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "DeColores",
+        "Address": "1626 S Halsted St, Chicago, IL, 60608",
+        "Type": "Bib Gourmond",
+        "Zip": 60608
+      },
+      "geometry": {
+        "coordinates": [
+          -87.646898,
+          41.859089
+        ],
+        "type": "Point"
+      },
+      "id": "bf46057ad53f7915728d8fea96ab069e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cumin",
+        "Address": "1414 N MIL,waukee Avenue, Chicago, IL, 60622",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.673357,
+          41.907497
+        ],
+        "type": "Point"
+      },
+      "id": "bfa117ff5ad1714650c6f453c75a8ec4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Next",
+        "Address": "953 West Fulton Market, Chicago, IL, 60607",
+        "Type": "Bib Gourmond",
+        "Zip": 60607
+      },
+      "geometry": {
+        "coordinates": [
+          -87.651345,
+          41.886598
+        ],
+        "type": "Point"
+      },
+      "id": "bfbd666dc4546506b2dbb96aa7696f33"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pizzeria Bebu",
+        "Address": "1521 N Fremont St, Chicago, IL, 60642",
+        "Type": "Bib Gourmond",
+        "Zip": 60642
+      },
+      "geometry": {
+        "coordinates": [
+          -87.651055,
+          41.90912
+        ],
+        "type": "Point"
+      },
+      "id": "c111df03779b6c56ff637ce64687e75b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gilt Bar",
+        "Address": "230 West Kinzie Street, Chicago, IL, 60654",
+        "Type": "Bib Gourmond",
+        "Zip": 60654
+      },
+      "geometry": {
+        "coordinates": [
+          -87.635356,
+          41.889421
+        ],
+        "type": "Point"
+      },
+      "id": "c4fd0d5d0a995feffd4fd3ebe6c0ea5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Quiote",
+        "Address": "2456 North California Avenue, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.69782,
+          41.92651
+        ],
+        "type": "Point"
+      },
+      "id": "cd0744a221ed11433ef6c112463bcc79"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EL ideas",
+        "Address": "2419 W 14th St, Chicago, IL, 60608",
+        "Type": "Michelin",
+        "Zip": 60608
+      },
+      "geometry": {
+        "coordinates": [
+          -87.686531,
+          41.863134
+        ],
+        "type": "Point"
+      },
+      "id": "d0622fc728d36febd367d889c9548f03"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Daisies",
+        "Address": "2523 North MIL,waukee Avenue, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.704064,
+          41.927353
+        ],
+        "type": "Point"
+      },
+      "id": "d55f76f2620bf0362481be6e008ce681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "True Food Kitchen",
+        "Address": "1 W. Erie Street, Chicago, IL, 60654",
+        "Type": "Bib Gourmond",
+        "Zip": 60610
+      },
+      "geometry": {
+        "coordinates": [
+          -87.627542,
+          41.893634
+        ],
+        "type": "Point"
+      },
+      "id": "dd1e4ef30026ddd83cf8b46ccb67ffc6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "KAI ZAN",
+        "Address": "2557 West Chicago Avenue, Chicago, IL, 60622",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.690953,
+          41.89555
+        ],
+        "type": "Point"
+      },
+      "id": "ddffce9c54e53b5c1f3f5c6781f238e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Elizabeth Restaurant",
+        "Address": "4835 N Western Ave, Chicago, IL, 60625",
+        "Type": "Michelin",
+        "Zip": 60625
+      },
+      "geometry": {
+        "coordinates": [
+          -87.688646,
+          41.969543
+        ],
+        "type": "Point"
+      },
+      "id": "e20b504a53968474f4366c08f8694f37"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "La Josie",
+        "Address": "740 West Randolph Street, Chicago, IL, 60661",
+        "Type": "Bib Gourmond",
+        "Zip": 60622
+      },
+      "geometry": {
+        "coordinates": [
+          -87.647301,
+          41.884839
+        ],
+        "type": "Point"
+      },
+      "id": "f68ec5dd8774a2dc42630fa16da7af26"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Longman & Eagle",
+        "Address": "2657 N Kedzie Ave, Chicago, IL, 60647",
+        "Type": "Bib Gourmond",
+        "Zip": 60647
+      },
+      "geometry": {
+        "coordinates": [
+          -87.707186,
+          41.930072
+        ],
+        "type": "Point"
+      },
+      "id": "f72c7b43621503f2cdd2a2b934eabe16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sepia",
+        "Address": "123 N Jefferson St, Chicago, IL, 60661",
+        "Type": "Michelin",
+        "Zip": 60661
+      },
+      "geometry": {
+        "coordinates": [
+          -87.642307,
+          41.883953
+        ],
+        "type": "Point"
+      },
+      "id": "fe8917dcf752262310ec1e061c09983d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sabri Nihari",
+        "Address": "2502 W Devon Ave, Chicago, IL, 60659",
+        "Type": "Bib Gourmond",
+        "Zip": 60659
+      },
+      "geometry": {
+        "coordinates": [
+          -87.692584,
+          41.997848
+        ],
+        "type": "Point"
+      },
+      "id": "fedcc0ca7037dda87950448769c35fab"
+    }
+  ],
+  "type": "FeatureCollection"
+}

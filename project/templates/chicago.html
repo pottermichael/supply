@@ -58,6 +58,7 @@
   cta_isos = {{ cta_isos | safe}};
   union_isos = {{ union_isos | safe}};
   ogilvie_isos = {{ ogilvie_isos | safe}};
+  restaurants = {{ restaurants | safe}};
   console.log(typeof(cta_isos));
   console.log(cta_isos);
   mapboxgl.accessToken = 'pk.eyJ1IjoibXBvdHRlciIsImEiOiJjajAxZGltM3UwNjF2MzJsczVnN3R2eTNnIn0._Sj0HRLt8VTQGTojMWYFfQ';
@@ -95,15 +96,22 @@
         'fill-opacity': 0.6
       }
     });
-  //how to add layer for labels
+    //how to add layer for labels
+    map.addSource('restaurants', {
+      'type': 'geojson',
+      'data': restaurants
+    });
     map.addLayer({
-      'id': 'proj_labels',
+      'id': 'restaurants',
       'type': 'symbol',
-      'source': 'footprints',
-      'layout': {},
-      'paint': {
-        'line-color': '#7AD7F0'
-      }
+      'source': 'restaurants',
+      'layout': {
+        'text-field': ['upcase',['get', 'Name']],
+        'text-font': [
+          'Open Sans Semibold',
+          'Arial Unicode MS Bold'
+        ],
+      },
     });
     //add layers for CTA
     map.addSource('cta', {
@@ -290,9 +298,9 @@
   map.on('load', function() {
     // If these two layers have been added to the style,
     // add the toggle buttons.
-    if (map.getLayer('cta') && map.getLayer('ogilvie') && map.getLayer('union') && map.getLayer('footprints')) {
+    if (map.getLayer('cta') && map.getLayer('ogilvie') && map.getLayer('union') && map.getLayer('restaurants') && map.getLayer('footprints')) {
       // Enumerate ids of the layers.
-      var toggleableLayerIds = ['cta','ogilvie','union','footprints'];
+      var toggleableLayerIds = ['cta','ogilvie','union','restaurants','footprints'];
       // Set up the corresponding toggle button for each layer.
       for (var i = 0; i < toggleableLayerIds.length; i++) {
         var id = toggleableLayerIds[i];
