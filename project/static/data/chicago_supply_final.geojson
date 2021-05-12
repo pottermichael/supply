@@ -5257,7 +5257,7 @@
       "properties": {
         "year": 2018,
         "use": "Office",
-        "project": "Spaces",
+        "project": "900 W Randolph",
         "address": "900 W Randolph St",
         "zip": 60607,
         "comb_add": "900 W Randolph St, 60607, Chicago, Illinois",
@@ -5265,27 +5265,54 @@
         "lat": 41.8846,
         "long": -87.6501,
         "submarket": "Fulton Market",
-        "developer": "Tucker",
+        "developer": "Related/Tucker",
         "status": "Stabilized",
         "ext_plan": "Existing",
         "gfa": 45000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Spaces.jpg"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/900_w_randolph.jpeg"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-87.650124, 41.8847483],
-            [-87.6501233, 41.8847312],
-            [-87.6499072, 41.8847357],
-            [-87.6499017, 41.8845888],
-            [-87.6499013, 41.8845776],
-            [-87.6499139, 41.8845773],
-            [-87.650175, 41.8845719],
-            [-87.6501815, 41.8847472],
-            [-87.650124, 41.8847483]
+            [
+          -87.65060018851196,
+          41.88490157259872
+        ],
+        [
+          -87.65061099392605,
+          41.88522335161488
+        ],
+        [
+          -87.64993025284839,
+          41.88523944052335
+        ],
+        [
+          -87.64990864202029,
+          41.88455163607881
+        ],
+        [
+          -87.65016797195504,
+          41.8845556583486
+        ],
+        [
+          -87.65017877736908,
+          41.884744704740285
+        ],
+        [
+          -87.65035706669906,
+          41.88474872699791
+        ],
+        [
+          -87.65036246940537,
+          41.884905594846515
+        ],
+        [
+          -87.65060018851196,
+          41.88490157259872
+        ]
           ]
         ]
       }
@@ -8480,44 +8507,6 @@
       "properties": {
         "year": 2023,
         "use": "Resi",
-        "project": "Quality Foods - Multi",
-        "address": "900 W Randolph St",
-        "zip": 60607,
-        "comb_add": "900 W Randolph St, 60607, Chicago, Illinois",
-        "ward": 27,
-        "lat": 41.8846,
-        "long": -87.6501,
-        "submarket": "Fulton Market",
-        "developer": "Tucker/Related",
-        "status": "Zoning",
-        "ext_plan": "Planned",
-        "gfa": 300000,
-        "off_vac": 0,
-        "website": "No Site Avail",
-        "aws_image": "No Site Avail"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.650124, 41.8847483],
-            [-87.6501233, 41.8847312],
-            [-87.6499072, 41.8847357],
-            [-87.6499017, 41.8845888],
-            [-87.6499013, 41.8845776],
-            [-87.6499139, 41.8845773],
-            [-87.650175, 41.8845719],
-            [-87.6501815, 41.8847472],
-            [-87.650124, 41.8847483]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "year": 2023,
-        "use": "Resi",
         "project": "Trib-Condo",
         "address": "435 N Michigan Ave",
         "zip": 60611,
@@ -9365,7 +9354,7 @@
         "long": -87.645123,
         "submarket": "River West",
         "developer": "SVN",
-        "status": "Inactive",
+        "status": "For Sale",
         "ext_plan": "Planned",
         "gfa": 500000,
         "off_vac": 0,
@@ -10578,7 +10567,7 @@
         "gfa": 350000,
         "off_vac": 0,
         "website": "No Site Avail",
-        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/Thompson+Center.jpg"
+        "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/160+N+Morgan.png"
       },
       "geometry": {
         "type": "Polygon",
