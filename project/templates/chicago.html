@@ -56,7 +56,8 @@
 <script>
   item = {{ data | safe}};
   cta_isos = {{ cta_isos | safe}};
-  commuter_isos = {{ commuter_isos | safe}};
+  union_isos = {{ union_isos | safe}};
+  ogilvie_isos = {{ ogilvie_isos | safe}};
   console.log(typeof(cta_isos));
   console.log(cta_isos);
   mapboxgl.accessToken = 'pk.eyJ1IjoibXBvdHRlciIsImEiOiJjajAxZGltM3UwNjF2MzJsczVnN3R2eTNnIn0._Sj0HRLt8VTQGTojMWYFfQ';
@@ -136,15 +137,31 @@
         'fill-opacity': 0.33
       }
     });
-    //commuter isos
-    map.addSource('commuter', {
+    //ogilvie isos
+    map.addSource('ogilvie', {
       'type': 'geojson',
-      'data': commuter_isos
+      'data': ogilvie_isos
     });
     map.addLayer({
-      'id': 'commuter',
+      'id': 'ogilvie',
       'type': 'fill',
-      'source': 'commuter',
+      'source': 'ogilvie',
+      'layout': {},
+      'paint': {
+        'fill-color': '#ebfb6f',
+        'fill-opacity': 0.33,
+        'fill-outline-color': '#000000'
+      }
+    });
+    //union isos
+    map.addSource('union', {
+      'type': 'geojson',
+      'data': union_isos
+    });
+    map.addLayer({
+      'id': 'union',
+      'type': 'fill',
+      'source': 'union',
       'layout': {},
       'paint': {
         'fill-color': '#ebfb6f',
@@ -273,9 +290,9 @@
   map.on('load', function() {
     // If these two layers have been added to the style,
     // add the toggle buttons.
-    if (map.getLayer('cta') && map.getLayer('commuter') && map.getLayer('footprints')) {
+    if (map.getLayer('cta') && map.getLayer('ogilvie') && map.getLayer('union') && map.getLayer('footprints')) {
       // Enumerate ids of the layers.
-      var toggleableLayerIds = ['cta','commuter','footprints'];
+      var toggleableLayerIds = ['cta','ogilvie','union','footprints'];
       // Set up the corresponding toggle button for each layer.
       for (var i = 0; i < toggleableLayerIds.length; i++) {
         var id = toggleableLayerIds[i];

@@ -72,16 +72,23 @@ def get_cta_isos():
     data = json.load(open(json_url))
     return data
 
-def get_commuter_isos():
+def get_ogilvie_isos():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_commuter.geojson")
+    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_commuter_ogilvie.geojson")
+    data = json.load(open(json_url))
+    return data
+
+def get_union_isos():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_commuter_union.geojson")
     data = json.load(open(json_url))
     return data
 
 @main.route('/chicago', methods=["GET"])
 def chicago():
     cta_isos = get_cta_isos()
-    commuter_isos = get_commuter_isos()
+    union_isos = get_union_isos()
+    ogilvie_isos = get_ogilvie_isos()
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "chicago_supply_final.geojson")
     data = json.load(open(json_url))
@@ -91,7 +98,7 @@ def chicago():
     #print(gdf)
     print(type(data))
     print(data)
-    return render_template("chicago.html",data=data, cta_isos=cta_isos,commuter_isos=commuter_isos)
+    return render_template("chicago.html",data=data, cta_isos=cta_isos,union_isos=union_isos, ogilvie_isos=ogilvie_isos)
 
 @main.route('/geo', methods=["GET"])
 def geojson_to_gpd():
