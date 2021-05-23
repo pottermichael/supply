@@ -5255,8 +5255,8 @@
     {
       "type": "Feature",
       "properties": {
-        "year": 2018,
-        "use": "Office",
+        "year": 2024,
+        "use": "Resi",
         "project": "900 W Randolph",
         "address": "900 W Randolph St",
         "zip": 60607,
@@ -5266,9 +5266,9 @@
         "long": -87.6501,
         "submarket": "Fulton Market",
         "developer": "Related/Tucker",
-        "status": "Stabilized",
-        "ext_plan": "Existing",
-        "gfa": 45000,
+        "status": "Zoning",
+        "ext_plan": "Planned",
+        "gfa": 350000,
         "off_vac": 0,
         "website": "No Site Avail",
         "aws_image": "https://ridcchicago.s3.us-east-2.amazonaws.com/900_w_randolph.jpeg"

@@ -1,3 +1,0 @@
-https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
-
-https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app

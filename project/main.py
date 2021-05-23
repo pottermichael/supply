@@ -5,6 +5,10 @@ from flask_migrate import Migrate
 import pandas as pd
 import geopandas as gpd
 import os
+from pprint import pprint
+#needed relative path
+from project.logic import *
+
 
 #https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/
 
@@ -37,26 +41,24 @@ def profile():
     ]
     return 'Profile'
 
-@main.route('/denver', methods=["GET"])
-def denver():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "denver_clear.geojson")
-    data = json.load(open(json_url))
-    return render_template("denver.html",data=data)
-
-
 @main.route('/charlotte', methods=["GET"])
 def charlotte():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "charlotte_clean.geojson")
+    json_url = os.path.join(SITE_ROOT, "static/data/charlotte", "charlotte_clean.geojson")
     data = json.load(open(json_url))
     return render_template("charlotte.html",data=data)
 
+@main.route('/denver', methods=["GET"])
+def denver():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data/denver", "denver_clear.geojson")
+    data = json.load(open(json_url))
+    return render_template("denver.html",data=data)
 
 @main.route('/denver_cbd', methods=["GET"])
 def denver_cbd():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "denver_fixed_supply.geojson")
+    json_url = os.path.join(SITE_ROOT, "static/data/denver", "denver_fixed_supply.geojson")
     data = json.load(open(json_url))
     #gdf = gpd.GeoDataFrame(open(json_url),geometry='geometry')
     #filter = gdf[gdf['use']=="office"]
@@ -66,29 +68,10 @@ def denver_cbd():
     print(data)
     return render_template("denver_cbd.html",data=data)
 
-def get_cta_isos():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "cta_5_min.geojson")
-    data = json.load(open(json_url))
-    return data
+"""
+CHICAGO FUNCTIONS
 
-def get_ogilvie_isos():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_commuter_ogilvie.geojson")
-    data = json.load(open(json_url))
-    return data
-
-def get_union_isos():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_commuter_union.geojson")
-    data = json.load(open(json_url))
-    return data
-
-def get_restaurants():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_restaurants.geojson")
-    data = json.load(open(json_url))
-    return data
+"""
 
 @main.route('/chicago', methods=["GET"])
 def chicago():
@@ -97,20 +80,20 @@ def chicago():
     ogilvie_isos = get_ogilvie_isos()
     restaurants = get_restaurants()
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "chicago_supply_final.geojson")
+    json_url = os.path.join(SITE_ROOT, "static/data/chicago", "chicago_supply_final.geojson")
     data = json.load(open(json_url))
     #gdf = gpd.GeoDataFrame(open(json_url),geometry='geometry')
     #filter = gdf[gdf['use']=="office"]
     print("filter results")
     #print(gdf)
     print(type(data))
-    print(data)
+    pprint(data)
     return render_template("chicago.html",data=data, cta_isos=cta_isos,union_isos=union_isos, ogilvie_isos=ogilvie_isos, restaurants=restaurants)
 
 @main.route('/geo', methods=["GET"])
 def geojson_to_gpd():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "denver_clear.geojson")
+    json_url = os.path.join(SITE_ROOT, "static/data/denver", "denver_clear.geojson")
     gdf = gpd.read_file(json_url,geometry="geometry",crs="EPSG:4326")
     gdf['center'] = gdf['geometry'].centroid
     print(gdf.columns)
@@ -133,11 +116,6 @@ def landing():
 def salesforce():
     return render_template("salesforce.html")
 
-
-"""
-LEASING FOR NEW BUILDINGS
-
-"""
 @main.route('/map', methods=["GET"])
 def map():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -146,6 +124,11 @@ def map():
     print(type(data))
     print(data)
     return render_template("map.html", data=data)
+
+"""
+LEASING FOR NEW BUILDINGS
+
+"""
 
 class DemandModel(db.Model):
     __tablename__ = 'leases'
