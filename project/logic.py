@@ -3,7 +3,6 @@ from flask import Flask, Blueprint, request, json, jsonify, render_template, mak
 import pandas as pd
 import geopandas as gpd
 import os
-from pprint import pprint
 
 def get_cta_isos():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))

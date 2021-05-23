@@ -9,7 +9,6 @@ from pprint import pprint
 #needed relative path
 from project.logic import *
 
-
 #https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/
 
 from . import db
@@ -68,6 +67,24 @@ def denver_cbd():
     print(data)
     return render_template("denver_cbd.html",data=data)
 
+@main.route('/geo', methods=["GET"])
+def geojson_to_gpd():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data/denver", "denver_clear.geojson")
+    gdf = gpd.read_file(json_url,geometry="geometry",crs="EPSG:4326")
+    gdf['center'] = gdf['geometry'].centroid
+    print(gdf.columns)
+    return render_template("geo.html",data=gdf)
+
+@main.route('/nashville', methods=["GET"])
+def nashville():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "nashville_bldg_footprints.geojson")
+    data = json.load(open(json_url))
+    print(type(data))
+    print(data)
+    return render_template("nashville.html", data=data)
+
 """
 CHICAGO FUNCTIONS
 
@@ -90,14 +107,6 @@ def chicago():
     pprint(data)
     return render_template("chicago.html",data=data, cta_isos=cta_isos,union_isos=union_isos, ogilvie_isos=ogilvie_isos, restaurants=restaurants)
 
-@main.route('/geo', methods=["GET"])
-def geojson_to_gpd():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data/denver", "denver_clear.geojson")
-    gdf = gpd.read_file(json_url,geometry="geometry",crs="EPSG:4326")
-    gdf['center'] = gdf['geometry'].centroid
-    print(gdf.columns)
-    return render_template("geo.html",data=gdf)
 
 @main.route('/', methods=["GET"])
 @main.route('/index', methods=["GET"])
@@ -115,15 +124,6 @@ def landing():
 @main.route('/salesforce', methods=["GET"])
 def salesforce():
     return render_template("salesforce.html")
-
-@main.route('/map', methods=["GET"])
-def map():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "nashville_bldg_footprints.geojson")
-    data = json.load(open(json_url))
-    print(type(data))
-    print(data)
-    return render_template("map.html", data=data)
 
 """
 LEASING FOR NEW BUILDINGS
